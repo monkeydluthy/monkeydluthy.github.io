@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+}
+
+div {
+    display: block;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img {
+    padding-top: 10px;
+    height: 250px;
+    width: auto;
+    justify-items: center;
+}
+
+.top-text {
+    width: 100%;
+    background-color: black;;
+}
+
+.top-text h2, h4, h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.top-text h1 {
+    color: red;
+}
+
+#board {
+    margin-top: 10px;
+}
+
+#board h1 {
+    color: black;
+}
+
+.board-members {
+    display: flex;
+    width: 100%;
+}
+
+.board-members img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.board-text {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.content h1 {
+    color: black;
+}
+
+.content p {
+    line-height: 2.5rem;
+    align-items: center;
+}
+
+#plan h1 {
+    color: black;
+    background-color: red;
+    opacity: 80%;
+}
+
+#plan .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#plan .content img {
+   align-items: center;
+    width: 400px;
+    height: auto;
+}
+
+#plan .content p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.top-text-2 {
+    background-color: black;
+    color: white;
+}
+
+.top-text-2 h1 {
+    color: red;
+}
+
+
+.levels img {
+    width: 300px;
+    height: auto;
+}
+
+.levels h4 {
+    color: black;
+    display: flex;
+    float: left;
+}
+
+.levels p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.sign-up img {
+    padding-top: 25px;
+    width: 250px;
+    height: auto;
+}
+
+#form h1 {
+    color: white;
+    background-color: black;
+}
+
+.form-text span {
+    font-style: italic;
+}
+
+.form-input img {
+    width: 700px;
+    height: auto;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer h1 {
+    margin-top: 20px;
+}
+
+.footer span {
+    color: white;
+    font-size: 10px;
+    margin: auto;
+}
