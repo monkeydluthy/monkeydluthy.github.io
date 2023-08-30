@@ -181,6 +181,7 @@ nav a {
 
 .site-links {
     display: inline-flex;
+    max-width: 100%;
 }
 
 .site-links ul{
