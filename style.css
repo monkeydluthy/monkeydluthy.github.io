@@ -35,7 +35,6 @@ nav ul {
 }
 
 .nav-list {
-    
     margin-top: 9rem;
 }
 
@@ -54,6 +53,7 @@ nav a {
 
 .top-box {
     line-height: 1rem;
+    max-width: 100%;
 }
 
 .top-box h5 {
@@ -73,6 +73,7 @@ nav a {
     text-align: right;
     margin-left: 55%;
     color: white;
+    max-width: 100%;
 }
 
 .float-box h3 {
