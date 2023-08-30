@@ -68,7 +68,7 @@ nav a {
     display: flex;
     background-image: url(https://t4.ftcdn.net/jpg/02/86/81/15/240_F_286811539_a5tMB9Kx5hRpgRZsvitFqCjrufbRUUWu.jpg);
     background-size: cover;
-    height: 100%ß;
+    height: 100%;
 }
 
 .float-box {
@@ -154,6 +154,10 @@ nav a {
     margin-top: 0.6rem;
 }
 
+.footer {
+    max-width: 100%
+}
+
 .footer-container {
     max-width: 100%;
     background-color: white;
@@ -188,4 +192,6 @@ nav a {
     margin-right: 0.15rem;
     margin-left: 0.15rem;
 }
-
+.copyright {
+    max-width: 100%
+}
