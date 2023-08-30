@@ -193,6 +193,7 @@ nav a {
     margin-left: 0.15rem;
 }
 .copyright {
-    max-width: 100%
+    max-width: 100%;
     display: inline-flex;
+    position: relative;
 }
