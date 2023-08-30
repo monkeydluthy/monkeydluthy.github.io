@@ -196,6 +196,6 @@ nav a {
 }
 .copyright {
     max-width: 100%;
-    display: inline-flex;
+    display: inline-block;
     position: relative;
 }
