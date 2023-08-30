@@ -164,6 +164,7 @@ nav a {
 
 .social-media {
     display: inline-flex;
+    max-width: 100%;
 }
 
 .social-media img {
@@ -193,4 +194,5 @@ nav a {
 }
 .copyright {
     max-width: 100%
+    display: inline-flex;
 }
