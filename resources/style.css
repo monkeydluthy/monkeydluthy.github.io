@@ -345,8 +345,8 @@ button {
 }
 
 .social-media {
-    display: inline-flex;
-    width: 100%;
+  
+    max-width: 100%;
 }
 
 .social-media img {
@@ -362,14 +362,13 @@ button {
 
 
 .site-links {
-    display: inline-flex;
-    width: 100%;
+   max-width: 100%;
 }
 
 .site-links ul{
     display: inline-flex;
     list-style-type: none;
-   
+   margin-right: 2rem;
 }
 
 .site-links li {
