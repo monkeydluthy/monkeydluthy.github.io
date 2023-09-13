@@ -4,7 +4,7 @@ html {
 
 
 header {
-    height: 12rem;
+    
     width: 100%; 
     position: fixed;
     background-color: white;
@@ -59,25 +59,35 @@ body {
 }
 
 .top-box {
-    line-height: 1rem;
-}
-
-.top-box h1 {
-    font-size: 3rem;
+    background-color: black;
+    border-radius: 8px;
     margin-top: 10%;
+    max-width: 100%;
 }
 
-.top-box h5 {
-    display: inline-block;
+.top-box-text {
+    padding-top: 3rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.top-box-text-2 {
     font-size: 1rem;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
 
 .mid-box {
+    position: relative;
     max-width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     background-image: url(https://t4.ftcdn.net/jpg/02/86/81/15/240_F_286811539_a5tMB9Kx5hRpgRZsvitFqCjrufbRUUWu.jpg);
     background-size: cover;
     height: 100%;
+    z-index: 0;
 }
 
 .float-box {
