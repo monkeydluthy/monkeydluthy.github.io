@@ -335,12 +335,12 @@ button {
 }
 .footer {
     height: auto;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
 }
 
 .footer-container {
-    max-width: 100%;
+    width: 100%;
     background-color: whitesmoke;
 }
 
@@ -350,10 +350,10 @@ button {
 }
 
 .social-media img {
-    height: 50px;
+    height: 3rem;
     width: auto;
     margin-top: 1rem;
-    padding: 1.5rem;
+    padding: 0.25rem;
 }
 
 .social-media p{
