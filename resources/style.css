@@ -4,7 +4,7 @@ html {
 
 
 header {
-    height: autp;
+    height: 12rem;
     width: 100%; 
     position: fixed;
     background-color: white;
@@ -13,8 +13,8 @@ header {
 }
 
 header img {
-    width: 20%;
-    height: 10 rem;
+    width: 25%;
+    height: 100%;
     float: left;
     margin: auto;
     top: 0;
@@ -32,7 +32,7 @@ nav ul {
     color: white;
     float: right;
     z-index: 1;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-right: 5%
 }
 
