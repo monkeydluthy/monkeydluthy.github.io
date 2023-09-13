@@ -346,7 +346,7 @@ button {
 
 .social-media {
     display: inline-flex;
-    max-width: 100%;
+    width: 100%;
 }
 
 .social-media img {
@@ -363,7 +363,7 @@ button {
 
 .site-links {
     display: inline-flex;
-    
+    width: 100%;
 }
 
 .site-links ul{
