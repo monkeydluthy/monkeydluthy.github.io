@@ -435,11 +435,13 @@ button {
 }
 
 .na-website {
-    align-self: center;
+    display: block;
     margin-left: 5%;
     padding-top: 1rem;
     background-color: rgba(247, 224, 224, 0.572);
     border-radius: 8px;
+    height: 300px;
+    max-height: 300px;
 }
 
 .na-website img {
@@ -450,6 +452,7 @@ button {
     background-color: black;
     width: 90%;
     border-radius: 8px;
+    margin-top: 50px;
 }
 
 .na-website figcaption {
@@ -458,6 +461,40 @@ button {
 }
 
 .na-website figcaption  a {
+    text-decoration: none;
+    color: blue;
+}
+.its-coffee {
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(247, 224, 224, 0.572);
+    border-radius: 8px;
+    width: 90%;
+    max-height: 300px;
+}
+
+.its-coffee img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 10%; */
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80%;
+    /* background-color: black; */
+    border-radius: 8px;
+    max-height: 250px;
+}
+
+.its-coffee figcaption {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.its-coffee figcaption  a {
     text-decoration: none;
     color: blue;
 }
@@ -493,12 +530,13 @@ button {
     background-color: rgba(247, 224, 224, 0.572);
     border-radius: 8px;
     align-self: center;
+    max-height: 310px;
 }
 
 .empty img {
     background-color: black;
     width: 90%;
-    height: 50%;
+    max-height: 250px;
     border-radius: 8px;
 }
 
