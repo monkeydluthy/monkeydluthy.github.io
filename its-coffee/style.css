@@ -1,0 +1,179 @@
+#header {
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    height: 280px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#logo img {
+    height: 280px;
+}
+
+#container {
+    text-align: center;
+}
+
+#nav {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav li {
+    display: inline;
+    margin: 3%;
+}
+
+#wrapper {
+    margin-top: 10%;
+}
+
+#brand {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: white;
+    padding: 3%;
+    border-radius: 8px 8px 0 0 ;
+}
+
+#text {
+    display: block;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: white;
+    padding: 3%;
+    border-radius: 0 0 8px 8px;
+}
+
+#brands-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+#top-brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#top-brands img{
+    max-width: 100%;
+    mix-blend-mode: multiply;
+}
+
+
+
+#purpose {
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 90%;
+    padding: 3%;
+    background-color: brown;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top: 3%;
+}
+
+#type-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+#coffee-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#coffee-types img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-seller-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+#top-sellers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#top-sellers img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coffee-maker-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+#coffee-makers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#coffee-makers img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5%;
+}
