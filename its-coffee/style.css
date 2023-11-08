@@ -424,3 +424,331 @@ footer {
     margin-right: auto;
     padding: 5%;
 }
+
+@media only screen and (max-width: 480px) {
+    
+    #header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        height: auto;
+    }
+    
+    #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    #logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #nav {
+    display: block;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav li {
+    display: block;
+    margin: 3%;
+}
+
+#wrapper {
+    top: 50%;
+    display: block;
+    margin-top: 10%;
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#brand {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: white;
+    padding: 3%;
+    border-radius: 8px 8px 0 0 ;
+}
+
+#text {
+    display: none;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: white;
+    padding: 3%;
+    border-radius: 0 0 8px 8px;
+}
+
+#brands-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+#top-brands {
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#top-brands img{
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
+    mix-blend-mode: multiply;
+    margin: auto;
+}
+
+#purpose {
+    display: none;
+}
+
+#coffee-types {
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#coffee-types img {
+    display: block;
+    max-width: 80%;
+    max-height: 250px;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-sellers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#top-sellers img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coffee-makers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 5%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#coffee-makers img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#nespresso-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-top: 2%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nespresso-grid img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+#nespresso-machines {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-top: 2%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nespresso-machines img {
+    display: block;
+    max-width: 80%;
+    max-height: 200px;
+    mix-blend-mode: multiply;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+#why-nespresso-text {
+    display: none;
+}
+
+#why-nespresso {
+    display: none;
+}
+
+#other-options-text {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#other-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#other-options img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+#coffee-header-logo {
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    mix-blend-mode: multiply;
+    border-radius: 8px;
+}
+
+#coffee-header-logo img {
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    mix-blend-mode: multiply;
+}
+
+#searchbar {
+    display: block;
+    max-width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    mix-blend-mode: multiply;
+    border-radius: 8px;
+}
+
+#searchbar img {
+    display: block;
+    max-width: 100%;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+}
+
+#top-text {
+    display: block;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: brown;
+    padding: 1%;
+    border-radius: 8px;
+}
+
+#five-by-four-grid {
+    display: block;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-top: 2%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#five-by-four-grid img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+#coffee-maker-grid {
+    display: block;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-top: 2%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coffee-maker-grid img {
+    display: block;
+    max-width: 80%;
+    mix-blend-mode: multiply;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+}
