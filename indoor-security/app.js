@@ -1,7 +1,15 @@
+let features = document.getElementById('features');
+features.addEventListener('click', (e) => {
+    let target = e.target;
+    console.log(target);
+})
+
 let arloMain = document.querySelector('#arlo-main');
 let ringMain = document.querySelector('#ring-main');
 let logiMain = document.querySelector('#logi-main');
 let eufyMain = document.querySelector('#eufy-main');
+let high = document.querySelector('#high')
+
 
 arloMain.addEventListener('click', () => {
     location.href = 'arlo-main.html';
@@ -19,13 +27,8 @@ eufyMain.addEventListener('click', () => {
     location.href = 'eufy-main.html';
 })
 
-let selected = document.querySelector('.nav-list');
-selected.addEventListener('click', (e) => {
-    
+let features = document.getElementById('features');
+features.addEventListener('click', (e) => {
     let target = e.target;
-    // console.log(target.classList)
-    if (target.tagName == 'A') {
-        target.classList.toggle('selected') 
-    }
-
+    console.log(target);
 })
