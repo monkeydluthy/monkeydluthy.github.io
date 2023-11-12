@@ -1,9 +1,3 @@
-let features = document.getElementById('features');
-features.addEventListener('click', (e) => {
-    let target = e.target;
-    console.log(target);
-})
-
 let arloMain = document.querySelector('#arlo-main');
 let ringMain = document.querySelector('#ring-main');
 let logiMain = document.querySelector('#logi-main');
@@ -27,8 +21,4 @@ eufyMain.addEventListener('click', () => {
     location.href = 'eufy-main.html';
 })
 
-let features = document.getElementById('features');
-features.addEventListener('click', (e) => {
-    let target = e.target;
-    console.log(target);
-})
+
