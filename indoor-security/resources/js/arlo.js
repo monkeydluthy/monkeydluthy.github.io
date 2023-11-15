@@ -46,30 +46,30 @@
 
   let productOne = document.getElementById('product-1');
   productOne.addEventListener('click', () => {
-    location.href = "https://amzn.to/461oZYG";
+    location.href = "https://amzn.to/3G1QiI0";
   })
 
   let productTwo = document.getElementById('product-2');
   productTwo.addEventListener('click', () => {
-    location.href = "https://amzn.to/3tVVhai";
+    location.href = "https://amzn.to/3SKJfea";
   })
 
   let productThree = document.getElementById('product-3');
   productTwo.addEventListener('click', () => {
-    location.href = "https://amzn.to/49voqJQ";
+    location.href = "https://amzn.to/49G9mcc";
   })
 
   let productFour = document.getElementById('product-4');
   productTwo.addEventListener('click', () => {
-    location.href = "https://amzn.to/47gNVfT";
+    location.href = "https://amzn.to/3R1mXDS";
   })
 
   let productFive = document.getElementById('product-5');
   productTwo.addEventListener('click', () => {
-    location.href = "https://amzn.to/3sgDCJR";
+    location.href = "https://amzn.to/3SGHQ8o";
   })
 
   let productSix = document.getElementById('product-6');
   productTwo.addEventListener('click', () => {
-    location.href = "https://amzn.to/3FJ0xAL";
+    location.href = "https://amzn.to/3QG9W19";
   })

@@ -46,30 +46,30 @@ featureParagraph4.addEventListener('click', function() {
 
 let productOne = document.getElementById('product-1');
 productOne.addEventListener('click', () => {
-  location.href = "https://amzn.to/46TiSXN";
+  location.href = "https://amzn.to/49FgdCC";
 })
 
 let productTwo = document.getElementById('product-2');
 productTwo.addEventListener('click', () => {
-  location.href = "https://amzn.to/49noyuW";
+  location.href = "https://amzn.to/49R3bCv";
 })
 
 let productThree = document.getElementById('product-3');
 productTwo.addEventListener('click', () => {
-  location.href = "https://amzn.to/3MudvWN";
+  location.href = "https://amzn.to/3sG1JBS";
 })
 
 let productFour = document.getElementById('product-4');
 productTwo.addEventListener('click', () => {
-  location.href = "https://amzn.to/3uawe3x";
+  location.href = "https://amzn.to/3szy4KM";
 })
 
 let productFive = document.getElementById('product-5');
 productTwo.addEventListener('click', () => {
-  location.href = "https://amzn.to/46VVXuW";
+  location.href = "https://amzn.to/46miHTz";
 })
 
 let productSix = document.getElementById('product-6');
 productTwo.addEventListener('click', () => {
-  location.href = "https://amzn.to/3u18Q8w";
+  location.href = "https://amzn.to/3uplIVV";
 })
