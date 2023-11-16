@@ -5,6 +5,29 @@
     margin-right: auto;
 }
 
+button {
+    display: block;
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: black;
+}
+
+button a {
+    text-decoration: none;
+    color: red;
+}
+
 #logo {
     display: block;
     height: 280px;
@@ -67,6 +90,17 @@
     border-radius: 8px 8px 0 0 ;
 }
 
+#brand-image {
+    display: block;
+    margin: auto;
+}
+
+#brand-image img {
+    max-width: 100px;
+}
+
+
+
 #text {
     display: block;
     font-size: 1.5rem;
@@ -97,10 +131,11 @@
 }
 
 #top-brands img{
-    max-width: 100%;
+    max-width: 300px;
+    max-height: 250px;
     mix-blend-mode: multiply;
+    padding: 3%;
 }
-
 
 
 #purpose {
@@ -139,6 +174,13 @@
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: auto;
+    max-height: 280px;
+    padding: 5%;
+}
+
+#coffee-image {
+    display: block;
+    margin: auto;
 }
 
 #top-seller-text {
@@ -162,6 +204,14 @@
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: auto;
+    padding: 5%;
+    max-height: 175px;
+}
+
+#top-sell-image{
+    display: block;
+    margin: auto;
+    padding: 2%;
 }
 
 #coffee-maker-text {
@@ -186,6 +236,17 @@
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+    max-height: 300px;
+}
+
+#coffee-maker-image {
+    padding: 3%;
+}
+
+#price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: brown;
 }
 
 footer {
@@ -423,6 +484,21 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+}
+
+#five-by-four-item {
+    text-align: center;
+}
+
+#other-option-item,
+#nespresso-item,
+#nespresso-machine-item,
+#brand-image,
+#coffee-image, 
+#top-sell-image,
+#coffee-maker-image,
+#coffee-maker-item {
+    text-align: center;
 }
 
 @media only screen and (max-width: 480px) {
@@ -731,6 +807,7 @@ footer {
     margin-right: auto;
     padding: 5%;
 }
+
 
 #coffee-maker-grid {
     display: block;
