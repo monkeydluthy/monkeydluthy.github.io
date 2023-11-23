@@ -296,6 +296,7 @@ footer {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 2%;
 }
 
 #nespresso-grid img {
@@ -305,6 +306,12 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+}
+
+#nespresso-item {
+    display: block;
+    margin: auto;
+    
 }
 
 #nespresso-machine-text {
@@ -330,6 +337,7 @@ footer {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 3%;
 }
 
 #nespresso-machines img {
