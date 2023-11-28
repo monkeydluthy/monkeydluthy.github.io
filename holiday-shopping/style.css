@@ -281,7 +281,7 @@ a {
 
 .slide > img {
     display: block;
-    width: 70%;
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     margin-left: auto;
@@ -836,7 +836,7 @@ a {
     
     .slide > img {
         display: block;
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         object-fit: cover;
         margin-left: auto;
@@ -963,7 +963,20 @@ a {
     
     /* ****END OF DEALS GRID**** */
     
-
+    #brand-logo-page {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    
+    #brand-logo-page img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: 100px;
+    }
 
     /* ****TIPS GRID**** */
     
