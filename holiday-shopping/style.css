@@ -330,6 +330,17 @@ a {
 
 /* ****End of Carousel**** */
 
+#after-banner {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+#after-banner-2 {
+    text-align: center;
+    font-weight: bold;
+}
+
 /* ****DEALS GRID**** */
 
 #top-deals {
@@ -358,6 +369,7 @@ a {
     padding: 5%;
     background-color: whitesmoke;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #deal:hover {
@@ -403,6 +415,7 @@ a {
     padding: 5%;
     background-color: whitesmoke;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #product:hover {
@@ -452,13 +465,19 @@ a {
     padding: 5%;
     background-color: whitesmoke;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #tips img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 150px;
     max-width: 15em;
+}
+
+#tips:hover {
+    background-color: lightgray;
 }
 
 #story {
@@ -558,6 +577,45 @@ a {
 
 /* ****END OF FAQ DROPDOWNS */
 
+#price {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#buy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    font-size: 1rem;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#buy:hover {
+    background-color: lightblue;
+}
+
+#buy a{
+    color: black;
+    font-weight: bold;
+}
+
+#social {
+    display: block;
+    margin-top: 1%;
+}
+#social img {
+    position: relative;
+    left: 94%;
+    height: 30px;
+}
+
+#social p {
+    text-align: center;
+}
 
 /* ******** MEDIA QUERIES ******** */
 
@@ -1107,5 +1165,9 @@ a {
     
     .arrow-rotated {
         transform: rotate(90deg);
+    }
+
+    #social {
+        display: none;
     }
   }
