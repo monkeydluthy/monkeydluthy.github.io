@@ -37,3 +37,8 @@ let faq = document.querySelector('[data-faq]');
 faq.addEventListener('click', () => {
     location.href = "dropdown-faq-example/index.html";
 })
+
+let resume = document.querySelector('[data-resume]');
+resume.addEventListener('click', () => {
+    location.href = "digital-resume/index.html";
+})
