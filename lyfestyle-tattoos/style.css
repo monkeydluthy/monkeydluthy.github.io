@@ -304,6 +304,28 @@ hr {
 
 /* *****END OF CONTACT FORM***** */
 
+#appointment {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border-radius: 8px;
+    background-color: rgb(190,240,190);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#appointment a {
+    text-decoration: none;
+    color: black;
+}
+
+#appointment:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
 
 #footer {
     margin-top: 5%;
@@ -632,6 +654,29 @@ hr {
 }
 
 /* *****END OF CONTACT FORM***** */
+#appointment {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border-radius: 8px;
+    background-color: rgb(190,240,190);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#appointment a {
+    text-decoration: none;
+    color: black;
+}
+
+#appointment:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
 
     #footer {
         margin-top: 5%;
