@@ -1,24 +1,25 @@
 html {
     max-width: 100%;
+    background-color: lightgray;
 }
 
 
 header {
-    
     width: 100%; 
     position: fixed;
-    background-color: white;
+    height: 300px;
+    background-color: lightgray;
     top: 0;
     z-index: 1;
 }
 
 header img {
-    width: 20%;
-    height: 100%;
+    width: 300px;
+    height: auto;
     float: left;
     margin: auto;
     top: 0;
-    
+    mix-blend-mode: multiply;
 }
 
 nav {
@@ -33,7 +34,7 @@ nav ul {
     color: white;
     float: right;
     z-index: 1;
-    margin-top: 15%;
+    margin-top: 13%;
     margin-right: 5%
 }
 
@@ -43,7 +44,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color:lightslategray;
+    color:black;
 }
 
 button a{
@@ -57,7 +58,7 @@ button a{
 }
 
 body {
-    top: 10rem;
+    top: 0rem;
     position: relative;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,7 +68,7 @@ body {
 .top-box {
     background-color: black;
     border-radius: 8px;
-    margin-top: 12%;
+    margin-top: 16%;
     max-width: 100%;
 }
 
@@ -134,16 +135,18 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: end;
     gap: 1rem;
-    margin-top: 5%;
 }
 
 .container > div {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.184);
     line-height: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 8px;
 }
 
 .container > div:hover {
-    background-color: lightgray;
+    background-color: rgba(138, 138, 138, 0.239);
 }
 
 .container img {
@@ -199,14 +202,43 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 5%;
     column-gap: 2%;
     row-gap: 2%;
     align-items: end;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.services-item-1{
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.services-item img {
+    margin-top: 10px;
+    mix-blend-mode: multiply;
+    max-width: 150px;
+    height: 150px;
+}
+
+.services-item:hover {
+    background-color: rgba(136, 135, 135, 0.329);
+    transition: .2s ease-in;
+}
+
+.services-item button {
+    width: 150px;
+    margin-top: auto;
+}
+
+/* .services-item-1{
     background-color: whitesmoke;
     border-radius: 8px;
 }
@@ -216,7 +248,7 @@ body {
     height: auto;
     margin-top: 0.5rem;
     border-radius: 8px;
-}
+} */
 
 .services-item-2 img {
     max-width: 70%;
@@ -326,11 +358,11 @@ button {
 
 .about-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 1rem;
-    column-gap: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1.5rem;
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-container p {
@@ -343,6 +375,7 @@ button {
 .about-me {
     background-color: whitesmoke;
     border-radius: 8px;
+    margin-bottom: 2%;
 }
 
 .about-me hr {
@@ -379,11 +412,12 @@ button {
 
 .service-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 1rem;
+    grid-template-columns: 1fr;
     column-gap: 1rem;
     padding-bottom: 1rem;
-    margin-left: 1.5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service-container p {
@@ -399,20 +433,24 @@ button {
 }
 
 .service img {
-    width: 75%;
+    width: auto;
+    max-height: 400px;
     margin: 3%;
     border-radius: 8px;
 }
 
 .service-head {
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: gray;
+    text-align: center;
 }
 
 .service hr {
+    display: none;
     margin-left: 5%;
     margin-right: 5%;
+    width: 80%;
     border: 1px solid gray;
 }
 
@@ -433,6 +471,7 @@ button {
 .service-form {
     align-self: center;
     background-color: whitesmoke;
+    margin-top: 2%;
 }
 
 .portfolio-container {
@@ -446,38 +485,60 @@ button {
 
 #portfolio-content {
     max-width: 100%;
-    background-color: whitesmoke;
+    background-color: lightgray;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
     border-radius: 8px;
+    justify-content: space-around;
 }
 
 #box {
-    display: block;
+    /* display: block;
     padding: 10%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    height: 400px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    justify-content: space-between;
+    cursor: pointer;
+
 }
 
 #box > img {
     display: block;
-    max-width: 100%;
-    max-height: 200px;
+    max-width: 80%;
+    /* max-height: 200px; */
+    height: auto;
+    align-self: center;
+    justify-self: center;
     padding: 0;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    mix-blend-mode: multiply;
 }
 
 #box:hover {
-    background-color: lightgray;
+    background-color: rgba(136, 135, 135, 0.329);
+    height: 100%;
+    border: 2px solid #000;
 }
 
 #box > p {
     text-align: center;
+    margin: 10px 0;
 }
 
 #box a {
@@ -490,6 +551,13 @@ button {
     color: red;
 }
 
+.contact-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 90%;
+}
 
 .tampa-na > img {
     display: block;
@@ -624,16 +692,22 @@ button {
 
 .contact-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 3%;
     margin-bottom: 5%;
-    column-gap: 2%;
+    gap: 1%;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-text  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
     justify-content: left;
-    margin-left: 15%;
     margin-top: 5%;
     line-height: 1.8rem;
 }
@@ -652,7 +726,7 @@ button {
 
 .footer-container {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 
 .social-media {
@@ -664,6 +738,7 @@ button {
     width: auto;
     margin-top: 1rem;
     padding: 0.25rem;
+    mix-blend-mode: multiply;
 }
 
 .social-media img:hover {
@@ -692,7 +767,7 @@ button {
 
 .site-links a {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 .site-links a:hover {
@@ -709,7 +784,13 @@ button {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 100%;
+        max-width: 100vw;
+        background-color: lightgray;
+    }
+
+    header {
+        background-color: lightgray;
+        height: 250px;;
     }
 
     .container {
@@ -718,8 +799,7 @@ button {
         display: block;
         /* grid-template-columns: 1fr 1fr 1fr;
         align-items: end; */
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         margin-top: 10%;
     }
     
@@ -727,8 +807,10 @@ button {
         display: block;
         width: 50%;
         height: auto;
+        float: none;
         margin-left: 20%;
         top: 0;
+        mix-blend-mode: multiply;
     }
     
     nav {
@@ -741,7 +823,6 @@ button {
         display: inline-flex;
         list-style-type: none;
         color: white;
-        float: right;
         z-index: 1;
         margin-top: 2%;
         margin-right: 8%
@@ -753,28 +834,30 @@ button {
     
     nav a {
         text-decoration: none;
-        color:lightslategray;
+        color:black;
     }
 
+    .nav-list {
+        margin-right: 4%;
+    }
     .top-box {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         background-color: black;
         border-radius: 8px;
-        margin-top: 30%;
+        margin-top: 70%;
         max-width: 100%;
     }
     
     .top-box-text {
-        padding-top: 3rem;
+        padding-top: 1rem;
         color: white;
-        font-size: 3rem;
+        font-size: 1.5rem;
         font-weight: bolder;
     }
     
     .top-box-text-2 {
-        font-size: 1rem;
+        font-size: .75rem;
         color: red;
         font-weight: bold;
         padding-bottom: 1rem;
@@ -782,200 +865,119 @@ button {
 
     .mid-box {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         width: 100%;
     }
 
     .float-box h3 {
-        font-size: 1rem;
+        font-size: .75rem;
     }
 
-    .container .box-1{
-        background-color: white;
-        margin-right: 1rem;
-        
-        margin-bottom: 1rem;
-        line-height: 1.5rem;
+    .float-box button {
+        font-size: 1rem;
+        width: auto;
+        height: 70%;
+    }
+
+    .container {
+        position: relative;
+        max-width: 100%;
+        display: block;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        align-items: end;
+        gap: 1rem;
     }
     
+    .container > div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: whitesmoke;
+        line-height: 1.5rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        color: black;
+        padding: 1%;
+    }
+    
+    .container > div:hover {
+        background-color: lightgray;
+    }
+
+    .box-text {
+        color: black;
+    }
+    
+    .container img {
+        max-width: 100%;
+        max-height: 200px;
+        mix-blend-mode: multiply;
+        /* height: auto; */
+    }
+
     button {
-        height: 2rem;
-        width: auto;
+        background-color: rgba(7, 7, 7, 0.731);
+        padding: 2%;
+        border-radius: 8px;
     }
 
     button a{
         text-decoration: none;
         font-weight: bold;
-        color: black;
+        color: rgb(222, 221, 221);
     }
 
-    .box-1 img {
-        max-width: 60%;
-        height: auto;
-       
+    .contact-form {
+        padding: 2%;
     }
-    
-    .container .box-2{
-        background-color: white;
-        margin-right: 1rem;
-       
-        margin-bottom: 1rem;
-        line-height: 1.5rem;
-    }
-    
-    .box-2 img {
-        max-width: 60%;
-        height: auto;
-        
-    }
-    
-    .container .box-3{
-        background-color: white;
-        margin-right: 1rem;
-        
-        margin-bottom: 1rem;
-        line-height: 1.5rem;
-    }
-    
-    .box-3 img {
-        max-width: 70%;
-        height: auto;
-       
-    }
+
     .services-container {
         display: block;
         /* grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr; */
         margin-top: 3%;
         margin-bottom: 5%;
-        /* column-gap: 2%; */
-        row-gap: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         /* align-items: end; */
     }
     
-    .services-item-1{
+    .services-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         background-color: whitesmoke;
         border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-1 img {
-        max-width: 70%;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
         height: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
     }
     
-    .services-item-2 img {
-        max-width: 70%;
+    .services-item img {
+        margin-top: 10px;
+        mix-blend-mode: multiply;
+        max-width: 150px;
         height: auto;
-        margin-top: 0.6rem;
-        border-radius: 8px;
     }
     
-    .services-item-2 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
+    .services-item button {
+        width: 150px;
+        margin-top: auto;
     }
-    
-    .services-item-2 p {
-      padding-left: 5%;
-      padding-right: 5%;
-        margin-bottom: 2rem;        
+
+    .box-text {
+        margin-bottom: 0;
     }
-    
-    .services-item-3 img {
-        max-width: 80%;
-        height: auto;
-        margin-top: 0.6rem;
-        border-radius: 8px;
+
+    .box-text-2 {
+        margin-top: 0;
     }
-    
-    .services-item-3 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-4{
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-4 img {
-        max-width: 70%;
-        height: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
-    }
-    
-    .services-item-5 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-5 img {
-        max-width: 67%;
-        height: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
-    }
-    
-    .services-item-6 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;        
-    }
-    
-    .services-item-6 img {
-        max-width: 67%;
-        height: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
-    }
-    
-    .services-item-7 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-7 img {
-        max-width: 67%;
-        height: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
-    }
-    
-    .services-item-8 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-8 img {
-        max-width: 67%;
-        height: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
-    }
-    
-    .services-item-9 {
-        background-color: whitesmoke;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    
-    .services-item-9 img {
-        max-width: 62%;
-        height: auto;
-        margin-top: 0.4rem;
-        border-radius: 8px;
-    }
+
     .contact-container {
         display: block;
         margin-top: 3%;
@@ -986,11 +988,12 @@ button {
     }
     
     .contact-text  {
-        margin-right: 10%;
         margin-top: 5%;
         line-height: 1.8rem;
         display: block;
         max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .contact-text h3 {
@@ -1005,14 +1008,15 @@ button {
     }
 
     .portfolio-container {
-        background-color: whitesmoke;
+        background-color: lightgray;
         border-radius: 8px;
-        margin-bottom: 5%;
-       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .portfolio-container-content {
-       padding-top: 2rem;;
+        padding-top: 2rem;;
         margin-top: 2%;
         /* margin-bottom: 10%; */
         padding-bottom: 2rem;
@@ -1022,89 +1026,54 @@ button {
         /* align-content: center; */
     }
     
-    .na-website {
+    #box {
+        /* display: block;
+        padding: 10%;
+        margin-left: auto;
+        margin-right: auto; */
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        height: 400px;
+        overflow: hidden;
+        max-width: 85%;
+        padding: 20px;
+        text-align: center;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+    }
+    
+    #box > img {
+        display: block;
+        max-width: 80%;
+        /* max-height: 200px; */
+        height: auto;
         align-self: center;
-        margin-left: 5%;
-        padding-top: 1rem;
-        background-color: rgba(247, 224, 224, 0.572);
-        border-radius: 8px;
+        justify-self: center;
+        padding: 0;
+        cursor: pointer;
+        margin: auto;
+        mix-blend-mode: multiply;
     }
-    
-    .na-website img {
-        padding-top: 10%;
-        padding-bottom: 10%;
-        padding-left: 2%;
-        padding-right: 2%;
-        background-color: black;
-        width: 90%;
-        border-radius: 8px;
-    }
-    
-    .na-website figcaption {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    .na-website figcaption  a {
+
+    #box a {
+        color: black;
         text-decoration: none;
-        color: blue;
-    }
-    
-    .esi {
-        margin-left: 5%;
-        padding-top: 1rem;
-        background-color: rgba(247, 224, 224, 0.572);
-        border-radius: 8px;
-        align-self: center;
-    }
-    
-    .esi img {
-        background-color: black;
-        width: 90%;
-        height: 50%;
-        border-radius: 8px;
-    }
-    
-    .esi figcaption {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    .esi figcaption  a {
-        text-decoration: none;
-        color: blue;
-    }
-    
-    .empty {
-        margin-left: 5%;
-        padding-top: 1rem;
-        background-color: rgba(247, 224, 224, 0.572);
-        border-radius: 8px;
-        align-self: center;
-    }
-    
-    .empty img {
-        background-color: black;
-        width: 90%;
-        height: 50%;
-        border-radius: 8px;
-    }
-    
-    .empty figcaption {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    .empty figcaption  a {
-        text-decoration: none;
-        color: blue;
+        cursor: pointer;
     }
 
     .service-container {
         display: block;
         padding-bottom: 2rem;
         align-content: center;
-        padding-right: 10%;
 
     }
     
@@ -1118,6 +1087,10 @@ button {
     .service {
         background-color: whitesmoke;
         border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     
     .service img {
@@ -1128,8 +1101,8 @@ button {
     
     .service-head {
         font-weight: bolder;
-        font-size: 1.2rem;
-        color: gray;
+        font-size: 1.1rem;
+        color: black;
     }
     
     .service hr {
@@ -1166,7 +1139,6 @@ button {
         display: block;
         padding-bottom: 1rem;
         align-content: center;
-        padding-right: 10%;
     }
     
     .about-container p {
@@ -1216,4 +1188,27 @@ button {
         background-color: whitesmoke;
     }
 
+    .footer-container {
+        width: 100%;
+        background-color: lightgray;
+        text-align: center;
+    }
+
+    .site-links {
+        display: none;
+    }
+
+    .social-media img {
+        height: 2rem;
+        width: auto;
+        margin-top: 1rem;
+        padding: 0.25rem;
+        mix-blend-mode: multiply;
+    }
+
+    .copyright {
+        max-width: 100%;
+        display: inline-flex;
+        font-size: .75rem;
+    }
 }

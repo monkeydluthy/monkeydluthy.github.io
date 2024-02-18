@@ -20,7 +20,12 @@ carousel.addEventListener('click', () => {
 
 let lyfestyle = document.querySelector('[data-clyde]');
 lyfestyle.addEventListener('click', () => {
-    location.href = "lyfestyle-tattoos/index.html";
+    location.href = "http://www.lyfestyletattoos.com";
+})
+
+let nrl = document.querySelector('[data-nrl]');
+nrl.addEventListener('click', () => {
+    location.href = "nrl-hair/index.html";
 })
 
 let dropdown = document.querySelector('[data-dropdown]');
@@ -41,4 +46,9 @@ faq.addEventListener('click', () => {
 let resume = document.querySelector('[data-resume]');
 resume.addEventListener('click', () => {
     location.href = "digital-resume/index.html";
+})
+
+let facna = document.querySelector('[data-facna]');
+facna.addEventListener('click', () => {
+    location.href = "facna/index.html";
 })
