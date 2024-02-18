@@ -1,23 +1,25 @@
 html {
     max-width: 95%;
     margin: auto;
+    background-color: lightgray;
 }
 
 header {
     max-width: 100%;
-    height: 150px;
-    background-color: white;
+    height: 200px;
+    background-color: lightgray;
     z-index: 1;
 }
 
 header img {
-   width: 300px;
-   height: 140px;
+   width: 250px;
+   height: auto;
    display:block;
    float: left;
    margin-left: 5%;
-   margin-top: 5%;
+   margin-top: 0;
    cursor: pointer;
+   mix-blend-mode: multiply;
 }
 
 nav {
@@ -26,7 +28,7 @@ nav {
 
 nav ul {
     display: inline-flex;
-    margin-top: 12%;
+    margin-top: 7%;
     float: right;
     font-size: 2rem;
     margin-right: 1%;
@@ -94,22 +96,22 @@ div {
 
 .top-box {
     width: 100%;
-    margin-top: 7%;
+    margin-top: 0;
     text-align: center;
-    background-color: black;
+    background-color: rgba(110, 109, 109, 0.43);
     border-radius: 8px;
     margin-bottom: 5%;
 }
 
 .top-text {
     padding-top: 2%;
-    color: wheat;
+    color: black;
     padding-bottom: 2%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .top-text h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
@@ -119,15 +121,15 @@ div {
 
 .top-box img {
     position: relative;
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 8px;
     padding-bottom: 5%;
 }
 
 .security {
     display: block;
-    max-width: 83%;
-    background-color: lightgray;
+    max-width: 100%;
+    background-color: rgba(110, 109, 109, 0.43);;
     margin: auto;
     padding: 3%;
     border-radius: 8px;
@@ -135,6 +137,7 @@ div {
 
 .why-head {
     font-size: 2rem;
+    margin-bottom: 2%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -143,14 +146,14 @@ div {
 .why-text {
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkmagenta;
+    color: black;
 }
 
 .brands {
     display: block;
-    max-width: 86%;
+    max-width: 100%;
     margin: 5% auto;
-    background-color: lightgray;
+    background-color: rgba(110, 109, 109, 0.43);;
     padding: 2%;
     border-radius: 8px;
 }
@@ -162,115 +165,112 @@ div {
 }
 
 .brand-pix img {
-    width: 100%;
+    width: auto;
+    height:  200px;
     margin: 2% auto;
     border-radius: 8px;
+    mix-blend-mode: multiply;
 }
 
 .brand-item {
+    display: flex;
+    flex-direction: column;
     mix-blend-mode: multiply;
     background-color: white;
-    align-items: baseline;
-    margin-top: 5%;
+    align-items: center;
+    justify-self: center;
     border-radius: 8px;
     padding: 3%;
 }
+
 
 .brand-text {
     font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    margin-top: auto;
 }
 
-#arlo-main {
+#arlo-main,
+#ring-main,
+#logi-main,
+#eufy-main  {
     cursor: pointer;
 }
 
-#arlo-main:hover {
-    background-color: lightblue;
-}
-
-#ring-main {
-    cursor: pointer;
-}
-
-#ring-main:hover {
-    background-color: lightblue;
-}
-
-#logi-main {
-    cursor: pointer;
-}
-
-#logi-main:hover {
-    background-color: lightblue;
-}
-
-#eufy-main {
-    cursor: pointer;
-}
-
+#arlo-main:hover,
+#ring-main:hover,
+#logi-main:hover,
 #eufy-main:hover {
-    background-color: lightblue;
+    background-color: lightgray;
+    width: 100%;
+    height: 95%;
 }
 
 #wrapper {
-    margin-top: 10%;
+    margin-top: 0;
 }
 
 #logo {
-    background-color: rgb(250,250,250   )
+    display: flex;
+    background-color: rgb(174, 173, 173);
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 #logo img {
-    display: block;
-    margin-top: 5%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3%;
+    width: 300px;
+    mix-blend-mode: multiply;
 }
 
 #columns {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 2%;
+    margin-top: 2%;
 }
 
-#hot {
+#item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     margin-top: 2%;
     padding: 5%;
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(110, 109, 109, 0.43);
     border-radius: 8px;
+    height: 500px;
 }
 
-#hot img{
-    display: block;
+#item img {
     mix-blend-mode: multiply;
-    margin-top: 5%;
-    max-width: 100%;
-    max-height: 325px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#ring-hot {
-    margin-bottom: 5%;
-    margin-top: 2%;
-    padding: 5%;
-    background-color: rgb(250, 250, 250);
+    width: auto;
+    height:  150px;
+    margin: 2% auto;
     border-radius: 8px;
+    mix-blend-mode: multiply;
 }
 
-#ring-hot img{
-    display: block;
-    mix-blend-mode: multiply;
-    margin-top: 5%;
-    max-height: 343px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+#features button,
+#features-2 button,
+#features-3 button,
+#features-4 button {
+    margin-top: auto;
 }
+
+.button-container {
+    margin-top: auto;
+}
+
+.button-container button {
+    cursor: pointer;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
 
 #columns button {
     display: block;
@@ -290,60 +290,6 @@ div {
     text-decoration: none;
 }
 
-#mid {
-    margin-top: 2%;
-    padding: 5%;
-    background-color: rgb(250, 250, 250);
-    border-radius: 8px;
-}
-
-#mid img{
-    display: block;
-    width: 60%;
-    mix-blend-mode: multiply;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 325px;
-    max-width: 100%;
-    
-}
-
-#low {
-    margin-top: 2%;
-    padding: 5%;
-    background-color: rgb(250, 250, 250);
-    border-radius: 8px;
-}
-
-#low img{
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 58%;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 325px;
-    max-width: 100%;
-}
-
-#high {
-    margin-top: 2%;
-    padding: 5%;
-    background-color: rgb(250, 250, 250);
-    border-radius: 8px;
-}
-
-#high img{
-    mix-blend-mode: multiply;
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 325px;
-    max-width: 100%;
-}
-
 #view-all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -351,11 +297,11 @@ div {
     /* margin-top: 5%; */
     align-items: center;
     text-align: center;
-    max-width: 80%;
-    background-color: rgb(250, 250, 250);
+    max-width: 100%;
+    background-color: rgba(110, 109, 109, 0.43);
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
+    /* height: 250px; */
     border-radius: 8px;
     align-items: baseline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -363,90 +309,32 @@ div {
     font-weight: bold;
 }
 
+#view-all img {
+    height: 100px;
+    width: auto;
+    mix-blend-mode: multiply;
+    padding: 5%;
+}
+
+#product-bottom {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#product-bottom:hover {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgba(110, 109, 109, 0.43);
+    border-radius: 8px;
+}
+
 #price {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-#product-1 img {
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 80%;
-    margin: 5% auto;
-    max-height: 150px;
-}
-
-#product-1:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-#product-2 img {
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 80%;
-    margin: 5% auto;
-    max-height: 150px;
-}
-
-#product-2:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-#product-3 img {
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 80%;
-    margin: 5% auto;
-    max-height: 150px;
-}
-
-#product-3:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-#product-4 img {
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 80%;
-    margin: 5% auto;
-    max-height: 150px;
-}
-
-#product-4:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-#product-5 img {
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 80%;
-    margin: 5% auto;
-    max-height: 150px;
-    
-}
-
-#product-5:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-#product-6 img {
-    mix-blend-mode: multiply;
-    display: block;
-    max-width: 80%;
-    margin: 5% auto;
-    max-height: 150px;
-}
-
-#product-6:hover {
-    background-color: lightgray;
-    cursor: pointer;
 }
 
 #hot-item {
@@ -481,7 +369,7 @@ div {
 #bottom-text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 1%;
     font-size: 2em;
 }
