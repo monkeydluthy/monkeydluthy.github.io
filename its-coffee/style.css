@@ -12,6 +12,7 @@ button {
     margin: auto;
     cursor: pointer;
     border-radius: 3px;
+    color: red;
 }
 
 button:hover {
@@ -86,8 +87,9 @@ button a {
     margin-right: auto;
     background-color: brown;
     color: white;
-    padding: 3%;
+    padding: 1%;
     border-radius: 8px 8px 0 0 ;
+    font-size: .75rem;
 }
 
 #brand-image {
@@ -100,10 +102,9 @@ button a {
 }
 
 
-
 #text {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     text-align: center;
     max-width: 90%;
@@ -111,7 +112,7 @@ button a {
     margin-right: auto;
     background-color: brown;
     color: white;
-    padding: 3%;
+    padding: 1%;
     border-radius: 0 0 8px 8px;
 }
 
@@ -131,8 +132,8 @@ button a {
 }
 
 #top-brands img{
-    max-width: 300px;
-    max-height: 250px;
+    max-width: auto;
+    max-height: 400px;
     mix-blend-mode: multiply;
     padding: 3%;
 }
@@ -170,17 +171,22 @@ button a {
 
 #coffee-types img {
     display: block;
-    max-width: 80%;
+    max-width: auto;
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: auto;
-    max-height: 280px;
+    max-height: 150px;
     padding: 5%;
 }
 
 #coffee-image {
     display: block;
+    width:  100%;
     margin: auto;
+}
+
+#coffee-image:hover {
+    background-color: lightgray;
 }
 
 #top-seller-text {
@@ -193,9 +199,11 @@ button a {
 
 #top-sellers {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     background-color: whitesmoke;
     border-radius: 8px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 #top-sellers img {
@@ -205,13 +213,28 @@ button a {
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
-    max-height: 175px;
+    max-height: 100px;
+    border-radius: 8px;
 }
 
 #top-sell-image{
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
     padding: 2%;
+}
+
+#top-sell-image:hover {
+    background-color: lightgray;
+}
+
+#details, #brand-name, #price {
+    font-size: 1rem;
+}
+
+button {
+    margin-top: auto;
 }
 
 #coffee-maker-text {
@@ -236,15 +259,19 @@ button a {
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
-    max-height: 300px;
+    max-height: 150px;
 }
 
 #coffee-maker-image {
     padding: 3%;
 }
 
+#coffee-maker-image:hover {
+    background-color: lightgray;
+}
+
 #price {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     color: brown;
 }
@@ -266,7 +293,7 @@ footer {
 
 #nespresso-logo img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
@@ -288,7 +315,7 @@ footer {
 
 #nespresso-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1%;
     background-color: whitesmoke;
     border-radius: 8px;
@@ -302,6 +329,8 @@ footer {
 #nespresso-grid img {
     display: block;
     max-width: 80%;
+    height: auto;
+    border-radius: 8px;
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: auto;
@@ -309,9 +338,14 @@ footer {
 }
 
 #nespresso-item {
-    display: block;
-    margin: auto;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#nespresso-item:hover {
+    background-color: lightgray;
 }
 
 #nespresso-machine-text {
@@ -342,13 +376,20 @@ footer {
 
 #nespresso-machines img {
     display: block;
-    max-width: 80%;
-    max-height: 300px;
+    max-width: auto;
+    height: 300px;
     mix-blend-mode: multiply;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+}
+
+#nespresso-machine-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 #why-nespresso-text {
@@ -382,20 +423,31 @@ footer {
 
 #other-options {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 1%;
     background-color: whitesmoke;
     border-radius: 8px;
+    padding: 1%;
 }
 
 #other-options img {
     display: block;
-    max-width: 80%;
+    max-width: auto;
+    max-height: 100px;
     mix-blend-mode: multiply;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+}
+
+#other-option-item:hover {
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
 }
 
 #coffee-header-logo {
@@ -454,8 +506,10 @@ footer {
 
 #five-by-four-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 1%;
+    row-gap: 3%;
     background-color: whitesmoke;
     border-radius: 8px;
     margin-top: 2%;
@@ -467,16 +521,23 @@ footer {
 #five-by-four-grid img {
     display: block;
     max-width: 80%;
+    max-height: 150px;
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
 }
 
+#five-by-four-item:hover {
+    background-color: lightgray;
+}
+
 #coffee-maker-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 1%;
+    row-gap: 2%;
     background-color: whitesmoke;
     border-radius: 8px;
     margin-top: 2%;
@@ -488,10 +549,28 @@ footer {
 #coffee-maker-grid img {
     display: block;
     max-width: 80%;
+    height: 150px;
     mix-blend-mode: multiply;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+}
+
+#coffee-maker-item {
+    height: 100%;
+    justify-content: space-between;
+}
+
+#coffee-maker-item:hover {
+    background-color: lightgray;
+}
+
+#coffee-maker-item p {
+    margin: 10px;
+}
+
+#coffee-maker-item button {
+    align-self: flex-end;
 }
 
 #five-by-four-item {
@@ -506,8 +585,13 @@ footer {
 #top-sell-image,
 #coffee-maker-image,
 #coffee-maker-item {
-    text-align: center;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+
 
 @media only screen and (max-width: 480px) {
     
