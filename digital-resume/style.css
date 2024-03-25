@@ -1,5 +1,5 @@
 body {
-    background: #87cefa;
+    background: darkblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -15,7 +15,9 @@ header {
     display: block;
     margin-top: 2%;
     margin-left: 2%;
+    width: 1000px;
 }
+
 #name-logo img {
     width: 30%;
 }
@@ -24,9 +26,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: black;
     padding: 2%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #nav ul {
@@ -65,11 +69,12 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 95%;
-    background-color: #97d5fc;
+    background-color: rgb(32, 32, 32);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 2%;
     border-radius: 8px;
+    border: 1px white solid;
 }
 
 #contact-box img {
@@ -78,14 +83,18 @@ header {
     padding: 2% auto;
     width: 75%;
     mix-blend-mode: multiply;
+    
 }
 
 #contact-inner {
     display: block;
     margin: 2% auto;
     width: 25%;
-    background-color: #87cefa;
+    background-color: rgb(171, 170, 170);
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 1%;
 }
 
 #contact-inner:hover {
@@ -98,10 +107,12 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    background-color: #97d5fc;
+    margin-top: 3%;
+    background-color: rgb(32, 32, 32);
     border-radius: 8px;
     padding-bottom: 2%;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #info-box {
@@ -120,6 +131,9 @@ header {
     display: block;
     margin: auto;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
 }
 
 #headshot img {
@@ -130,14 +144,21 @@ header {
 }
 
 #intro-statement {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     width: 80%;
-    background-color: aqua;
+    background-color: rgb(171, 170, 170);
     margin-top: 3%;
     padding: 2%;
     letter-spacing: 0.04rem;
     line-height: 2rem;
     border-radius: 8px;
-    color: rgb(28, 28, 28);
+    color: black;
+    font-size: 1.4rem;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #about {
@@ -145,20 +166,25 @@ header {
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
+    background-color: rgb(171, 170, 170);
     width: 80%;
     padding: 4%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #summary {
     display: none;
-    background-color: rgb(0, 244, 244);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     line-height: 1.5rem;
     letter-spacing: 1px;
     font-weight: 540;
+    font-size: 1.15rem;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #about h1 {
@@ -167,15 +193,21 @@ header {
     margin-right: auto;
     text-align: center;
     font-size: 2rem;
-    background-color: rgb(0, 244, 244);
+    background-color: black;
+    color: white;
     width: 30%;
     padding: 2%;
     border-radius: 8px;
     cursor: pointer;
 }
 
+#about-target {
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
 #about-target:hover {
-    background-color: white;
+    background-color: rgb(135, 134, 134);
 }
 
 #split {
@@ -184,15 +216,17 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-    background-color: aqua;
+    background-color: rgb(171, 170, 170);
     padding: 2%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #split-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(0, 244, 244);
+    background-color: rgb(171, 170, 170);
     border-radius: 8px;
     padding: 2%;
 }
@@ -224,26 +258,36 @@ hr {
 }
 
 #education-target {
-    display: block;
-    margin:auto;
-    background-color: rgb(0, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 50%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 #education-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #schools {
     display: none;
+    flex-direction: column;
     text-align: center;
-    background-color: rgb(0, 233, 233);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
-    padding: 1%;
+    /* padding: 1%; */
     margin-top: 5%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
 #high-school {
@@ -266,27 +310,35 @@ hr {
 }
 
 #interests-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 3%;
-    width: 100%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #interests-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #interests-1 {
     display: none;
     text-align: center;
-    background-color: rgb(0, 233, 233);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 3%;
     margin-top: 5%;
     width: 100%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #awards {
@@ -296,33 +348,43 @@ hr {
 }
 
 #awards-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 100%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #awards-lists {
     display: none;
+    
 }
 
 #performance-target {
     display: block;
     margin-top: 5%;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
     width: 80%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #performance-list {
     display: none;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 3%;
     margin-top: 1%;
@@ -330,6 +392,8 @@ hr {
     margin-right: auto;
     width: 90%;
     letter-spacing: .1rem;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #strong {
@@ -339,11 +403,14 @@ hr {
 #partnership-target {
     display: block;
     margin-top: 5%;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
     width: 80%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #partnership-list {
@@ -351,12 +418,14 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 3%;
     margin-top: 1%;
     width: 90%;
     letter-spacing: .1rem;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #skills {
@@ -365,9 +434,11 @@ hr {
     margin-left: auto;
     margin-right:  auto;
     margin-top: 3%;
-    background-color: aqua;
+    background-color: rgb(171, 170, 170);
     padding: 2%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #skills h2 {
@@ -377,7 +448,7 @@ hr {
 #skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: rgb(0, 244, 244);
+    background-color: rgb(171, 170, 170);
     border-radius: 8px;
     padding: 2%;
 }
@@ -399,17 +470,23 @@ hr {
 }
 
 #communication-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
     margin:auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
     width: 90%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #communication-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #communication-list {
@@ -417,25 +494,33 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 90%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #business-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin:auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
+    height: 85px;
     padding: 2%;
     width: 90%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #business-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #business-list {
@@ -443,25 +528,33 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 90%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #tech-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin:auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
+    height: 85px;
     padding: 2%;
     width: 90%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #tech-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #tech-list {
@@ -469,25 +562,33 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 90%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #problemsolving-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
     margin:auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
     width: 95%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #problemsolving-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #problemsolving-list {
@@ -495,25 +596,34 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 90%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #creativity-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin:auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 100%;
+    height: 85px;
+    width: 90%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
 }
 
 #creativity-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #creativity-list {
@@ -521,11 +631,13 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 90%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #certifications {
@@ -533,10 +645,12 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-    background-color: aqua;
+    background-color: rgb(171, 170, 170);
     width: 84%;
     padding: 2%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #certifications h3 {
@@ -545,7 +659,7 @@ hr {
 
 #true-certs {
     text-align: center;
-    background-color: rgb(0, 244, 244);
+    background-color: rgb(171, 170, 170);
     padding: 2%;
     border-radius: 8px;
 }
@@ -553,24 +667,36 @@ hr {
 #cert-target {
     display: block;
     margin:auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
     width: 30%;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #cert-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(171, 170, 170);
 }
 
 #cert-pics {
     display: none;
     letter-spacing: .1rem;
+    background-color: rgb(135, 134, 134);
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 1%;
 }
 
 #cert-pics hr {
     width: 25%;
+}
+
+.cert-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #true-certs img {
@@ -584,11 +710,15 @@ hr {
     padding: 2%;
     width: 35%;
     border-radius: 8px;
+    background-color: black;
+    color: white;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #course-target:hover {
-    background-color: rgb(0, 233, 233);
+    background-color: rgb(171, 170, 170);
 }
 
 #course-list {
@@ -601,6 +731,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
+    
 }
 
 #class-certs h2 {
@@ -623,10 +754,13 @@ hr {
 #class-pics {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 3%;
-    background-color: rgb(0, 244, 244);
+    margin-top: 2%;
+    background-color: rgb(135, 134, 134);
     padding: 2%;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2%;
 }
 
 #class-pics img {
@@ -645,8 +779,10 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    background-color: rgb(0, 244, 244);
-    border-radius: 0 0 8px 8px;
+    background-color: rgb(135, 134, 134);
+    border-radius: 8px;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #classes p {
@@ -665,16 +801,18 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-    background-color: aqua;
+    background-color: rgb(171, 170, 170);
     padding: 2%;
     border-radius: 8px;
     text-align: center;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #job-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: rgb(0, 244, 244);
+    background-color: rgb(171, 170, 170);
     border-radius: 8px;
 }
 
@@ -690,17 +828,23 @@ hr {
 }
 
 #verizon-target {
-    display: block;
+    display: flex;
     margin: auto;
-    background-color: rgb(0, 233, 233);
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 100%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #verizon-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #verizon-list {
@@ -708,25 +852,33 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 100%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #cb-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 100%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #cb-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #cb-list {
@@ -734,25 +886,33 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 100%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #sliders-target {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 100%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #sliders-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #sliders-list {
@@ -760,25 +920,33 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 100%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #lavish-target {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    background-color: rgb(0, 233, 233);
+    background-color: black;
+    color: white;
     padding: 2%;
-    width: 100%;
+    width: 200px;
+    height: 100px;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #lavish-target:hover {
-    background-color: whitesmoke;
+    background-color: rgb(135, 134, 134);
 }
 
 #lavish-list {
@@ -786,29 +954,35 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(0, 210, 210);
+    background-color: rgb(135, 134, 134);
     border-radius: 8px;
     padding: 2%;
     margin-top: 5%;
     width: 100%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #download {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 2%;
     text-align: center;
     width: 300px;
     font-size: 1rem;
     font-weight: bold;
-    background-color: aqua;
+    background-color: black;
+    color: white;
     padding: 0.5%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #download:hover {
-    background-color: white;
+    background-color: rgb(135, 134, 134);
+    color: inherit;
     cursor: pointer;
 }
 
@@ -817,13 +991,15 @@ hr {
 }
 
 #footer-container {
-    background-color: aqua;
+    background-color: black;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
     width: 95%;
     border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #logo {
@@ -839,18 +1015,32 @@ hr {
 }
 
 #social {
+    margin-top: 1%;
     text-align: center;
 }
 #social img {
     display: inline-block;
-    width: 2%;
-    mix-blend-mode: multiply;
+    width: 3%;
+    mix-blend-mode: none;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+    padding: 0.5%;
+    border-radius: 8px;
+}
+
+#social img:hover {
+    border: 3px white solid;
 }
 
 #dds {
     display: block;
     text-align: center;
     padding-bottom: 1%;
+}
+
+#dds a {
+    color: white;
 }
 /* Links to hover over */
 span.link {
@@ -1038,7 +1228,7 @@ span.lavish-link {
 
 /* **************************************MEDIA QUERY************************************** */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     header {
         height: 125px;
@@ -1050,8 +1240,9 @@ span.lavish-link {
     
     #name-logo {
         display: block;
-        margin-top: 2%;
-        margin-left: 2%;
+        /* margin-top: 2%;
+        margin-left: 2%; */
+        width: 95%;
     }
     #name-logo img {
         width: 100%;
@@ -1059,7 +1250,7 @@ span.lavish-link {
     
     #header-wrapper {
         display: block;
-        background-color: aqua;
+        background-color: black;
         padding: 2%;
         border-radius: 8px;
     }
@@ -1082,15 +1273,24 @@ span.lavish-link {
     #nav ul li {
         margin-right: 20px;
         font-size: 1.5rem;
+    }  
+    
+    #contact-box {
+        margin-top: 20px;
     }
-
+    
+    #contact-box img {
+        width: 100%;
+        height: auto;
+    }
+    
     #container {
         width: 95%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
-        background-color: #97d5fc;
+        background-color: black;
         border-radius: 8px;
         padding-bottom: 2%;
     }
@@ -1127,7 +1327,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         width: 85%;
-        background-color: aqua;
+        background-color: rgb(171, 170, 170);
         margin-top: 3%;
         padding: 2%;
         letter-spacing: 0.04rem;
@@ -1141,7 +1341,7 @@ span.lavish-link {
         margin-top: 3%;
         margin-left: auto;
         margin-right: auto;
-        background-color: aqua;
+        background-color: rgb(171, 170, 170);
         width: 80%;
         padding: 4%;
         border-radius: 8px;
@@ -1149,13 +1349,14 @@ span.lavish-link {
     
     #summary {
         display: none;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         line-height: 1.5rem;
         letter-spacing: 1px;
         font-weight: 540;
         text-align: center;
+        font-size: 1rem;
     }
     
     #about h1 {
@@ -1164,7 +1365,7 @@ span.lavish-link {
         margin-right: auto;
         text-align: center;
         font-size: 1rem;
-        background-color: rgb(0, 244, 244);
+        background-color: black;
         width: 90%;
         padding: 3%;
         border-radius: 8px;
@@ -1172,7 +1373,7 @@ span.lavish-link {
     }
     
     #about-target:hover {
-        background-color: white;
+        background-color: black;
     }
 
     #split {
@@ -1181,7 +1382,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         margin-top: 3%;
-        background-color: aqua;
+        background-color: rgb(171, 170, 170);
         padding: 2%;
         border-radius: 8px;
     }
@@ -1189,7 +1390,7 @@ span.lavish-link {
     #split-grid {
         display: block;
         grid-template-columns: 1fr 1fr 1fr;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(171, 170, 170);
         border-radius: 8px;
         padding: 2%;
     }
@@ -1204,9 +1405,8 @@ span.lavish-link {
     }
     
     #education-target {
-        display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1214,13 +1414,14 @@ span.lavish-link {
     }
     
     #education-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
+        color: black;
     }
     
     #schools {
         display: none;
         text-align: center;
-        background-color: rgb(0, 233, 233);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 1%;
         margin-top: 5%;
@@ -1241,9 +1442,8 @@ span.lavish-link {
     }
     
     #interests-target {
-        display: block;
         margin: auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 3%;
         width: 90%;
         border-radius: 8px;
@@ -1251,13 +1451,14 @@ span.lavish-link {
     }
     
     #interests-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
+        color: black;
     }
     
     #interests-1 {
         display: none;
         text-align: center;
-        background-color: rgb(0, 233, 233);
+        background-color: rrgb(135, 134, 134);
         border-radius: 8px;
         padding: 3%;
         margin-top: 5%;
@@ -1275,9 +1476,8 @@ span.lavish-link {
     }
     
     #awards-target {
-        display: block;
         margin: auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1291,7 +1491,7 @@ span.lavish-link {
     #performance-target {
         display: block;
         margin-top: 5%;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 80%;
         border-radius: 8px;
@@ -1301,7 +1501,7 @@ span.lavish-link {
     #performance-list {
         display: none;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 3%;
         margin-top: 1%;
@@ -1313,7 +1513,7 @@ span.lavish-link {
     #partnership-target {
         display: block;
         margin-top: 5%;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 80%;
         border-radius: 8px;
@@ -1325,7 +1525,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 3%;
         margin-top: 1%;
@@ -1338,7 +1538,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right:  auto;
         margin-top: 3%;
-        background-color: aqua;
+        background-color: rgb(171, 170, 170);
         padding: 2%;
         border-radius: 8px;
     }
@@ -1349,7 +1549,7 @@ span.lavish-link {
     
     #skills-grid {
         display: block;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(171, 170, 170);
         border-radius: 8px;
         padding: 2%;
     }
@@ -1364,9 +1564,8 @@ span.lavish-link {
     }
 
     #communication-target {
-        display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1374,7 +1573,7 @@ span.lavish-link {
     }
     
     #communication-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #communication-list {
@@ -1395,9 +1594,8 @@ span.lavish-link {
     }
 
     #business-target {
-        display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1405,7 +1603,7 @@ span.lavish-link {
     }
     
     #business-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #business-list {
@@ -1413,7 +1611,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1426,9 +1624,8 @@ span.lavish-link {
     }
 
     #tech-target {
-        display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1436,7 +1633,7 @@ span.lavish-link {
     }
     
     #tech-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #tech-list {
@@ -1444,7 +1641,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1457,9 +1654,8 @@ span.lavish-link {
     }
 
     #problemsolving-target {
-        display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1467,7 +1663,7 @@ span.lavish-link {
     }
     
     #problemsolving-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #problemsolving-list {
@@ -1475,7 +1671,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1489,9 +1685,8 @@ span.lavish-link {
     }
 
     #creativity-target {
-        display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1499,7 +1694,7 @@ span.lavish-link {
     }
     
     #creativity-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #creativity-list {
@@ -1507,7 +1702,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1519,7 +1714,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         margin-top: 3%;
-        background-color: aqua;
+        background-color: rgb(171, 170, 170);
         width: 84%;
         padding: 2%;
         border-radius: 8px;
@@ -1529,7 +1724,7 @@ span.lavish-link {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(171, 170, 170);
         padding: 2%;
         border-radius: 8px;
         margin-top: 5%;
@@ -1538,7 +1733,7 @@ span.lavish-link {
     #cert-target {
         display: block;
         margin:auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1546,13 +1741,17 @@ span.lavish-link {
     }
     
     #cert-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(171, 170, 170);
     }
     
     #cert-pics {
         display: none;
+        margin-top: 4%;
     }
     
+    .cert-images {
+        display: block;
+    }
     #true-certs img {
         margin-top: 3%;
         mix-blend-mode: multiply;
@@ -1565,11 +1764,11 @@ span.lavish-link {
         width: 90%;
         border-radius: 8px;
         cursor: pointer;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
     }
     
     #course-target:hover {
-        background-color: rgb(0, 233, 233);
+        background-color: rgb(171, 170, 170);
     }
     
     #course-list {
@@ -1588,7 +1787,7 @@ span.lavish-link {
     #class-pics {
         display: block;
         margin-top: 3%;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(135, 134, 134);
         padding: 2%;
         border-radius: 8px 8px 0 0;
     }
@@ -1609,7 +1808,7 @@ span.lavish-link {
     #classes {
         display: block;
         width: 100%;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(135, 134, 134);
         border-radius: 0 0 8px 8px;
         text-align: center;
         margin-bottom: 5%;
@@ -1630,14 +1829,14 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         margin-top: 3%;
-        background-color: aqua;
+        background-color: rgb(171, 170, 170);
         padding: 2%;
         border-radius: 8px;
     }
     
     #job-grid {
         display: block;
-        background-color: rgb(0, 244, 244);
+        background-color: rgb(171, 170, 170);
         border-radius: 8px;
     }
     
@@ -1649,9 +1848,9 @@ span.lavish-link {
     }
     
     #verizon-target {
-        display: block;
+        display: flex;
         margin: auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1659,7 +1858,7 @@ span.lavish-link {
     }
     
     #verizon-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #verizon-list {
@@ -1667,7 +1866,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1675,9 +1874,9 @@ span.lavish-link {
     }
     
     #cb-target {
-        display: block;
+        display: flex;
         margin: auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1685,7 +1884,7 @@ span.lavish-link {
     }
     
     #cb-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #cb-list {
@@ -1693,7 +1892,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1701,9 +1900,9 @@ span.lavish-link {
     }
     
     #sliders-target {
-        display: block;
+        display: flex;
         margin: auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1711,7 +1910,7 @@ span.lavish-link {
     }
     
     #sliders-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #sliders-list {
@@ -1719,7 +1918,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1727,9 +1926,9 @@ span.lavish-link {
     }
     
     #lavish-target {
-        display: block;
+        display: flex;
         margin: auto;
-        background-color: rgb(0, 233, 233);
+        background-color: black;
         padding: 2%;
         width: 90%;
         border-radius: 8px;
@@ -1737,7 +1936,7 @@ span.lavish-link {
     }
     
     #lavish-target:hover {
-        background-color: whitesmoke;
+        background-color: rgb(135, 134, 134);
     }
     
     #lavish-list {
@@ -1745,7 +1944,7 @@ span.lavish-link {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: rgb(0, 210, 210);
+        background-color: rgb(135, 134, 134);
         border-radius: 8px;
         padding: 2%;
         margin-top: 5%;
@@ -1762,7 +1961,7 @@ span.lavish-link {
         width: 85%;
         font-size: 1rem;
         font-weight: bold;
-        background-color: aqua;
+        background-color: black;
         padding: 0.5%;
         border-radius: 8px;
     }
@@ -1772,7 +1971,7 @@ span.lavish-link {
     }
     
     #footer-container {
-        background-color: aqua;
+        background-color: black;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -1802,7 +2001,7 @@ span.lavish-link {
     #social img {
         display: inline-block;
         width: 10%;
-        mix-blend-mode: multiply;
+        mix-blend-mode: none;
     }
     
     #dds {
@@ -1838,7 +2037,7 @@ span.lavish-link {
     }
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     
     header {
         height: 100px;
@@ -1995,4 +2194,4 @@ span.lavish-link {
         background-color: #87cefa;
         border-radius: 8px;
     }
-}
+} */

@@ -13,10 +13,10 @@ let education = document.getElementById('education-target');
 let schools = document.getElementById('schools');
 
 education.addEventListener('click', function() {
-    if (schools.style.display === "block") {
+    if (schools.style.display === "flex") {
       schools.style.display = "none";
     } else {
-      schools.style.display = "block";
+      schools.style.display = "flex";
     }
   });
 
