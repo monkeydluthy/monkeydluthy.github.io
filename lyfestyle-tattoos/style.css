@@ -596,7 +596,7 @@ hr {
     display: block;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     z-index: 1000;
 }
@@ -605,7 +605,7 @@ hr {
     display: inline;
     color: white;
     width: 100px;
-    margin: 1px;
+    margin: 0px;
 }
 
 #test-nav a {
