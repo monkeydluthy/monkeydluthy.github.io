@@ -9,7 +9,10 @@
 <header>
     <div id="head">
         <div id="logo">
-            <img src="resources/images/logo.PNG" alt="NRL Logo">
+            <img src="resources/images/nikki-logo.png" alt="NRL Logo">
+        </div>
+        <div id="phone-logo">
+            <img src="resources/images/nrl-logo.PNG" alt="">
         </div>
     </div>
 </header>
@@ -33,50 +36,79 @@
         </div>
         <div id="services">
             <!-- Pics centered and across site of services offered -->
-            <div id="service">
+            <div id="service" data-blonding>
                 <img src="resources/images/blonding.PNG" alt="Blonding">
+                <div id="box"><p id="boxp">View Blonding Porfolio</p></div>
+                <div id="box-small"><p>View Blonding Porfolio</p></div>
+                
             </div>
-            <div id="service">
+            <div id="service" data-deadends>
                 <img src="resources/images/deadends.PNG" alt="Dead Ends">
+                <div id="box-2"><p id="box2p">View Dead Ends Portfolio</p></div>
+                <div id="box-small"><p>View Dead Ends Porfolio</p></div>
             </div>
-            <div id="service">
+            <div id="service" data-events>
                 <img src="resources/images/events.PNG" alt="Events">
+                <div id="box-3"><p id="box3p">View Events Portfolio</p></div>
+                <div id="box-small"><p>View Events Porfolio</p></div>
             </div>
-            <div id="service">
+            <div id="service" data-extensions>
                 <img src="resources/images/extensions.PNG" alt="Extensions">
+                <div id="box-4"><p id="box4p">View Extensions Portfolio</p></div>
+                <div id="box-small"><p>View Extensions Porfolio</p></div>
             </div>
-            <div id="service">
+            <div id="service" data-gloss>
                 <img src="resources/images/gloss-refresh.PNG" alt="Gloss Refresh">
+                <div id="box-5"><p id="box5p">View Gloss Portfolio</p></div>
+                <div id="box-small"><p>View Gloss Porfolio</p></div>
             </div>
-            <div id="service">
+            <div id="service" data-halfblond>
                 <img src="resources/images/halfblonding.PNG" alt="Half Blonding">
+                <div id="box-6"><p id="box6p">View Half Blonding Portfolio</p></div>
+                <div id="box-small"><p>View Half Blonding Porfolio</p></div>
             </div>
-            <div id="service">
+            <div id="service" data-keratin>
                 <img src="resources/images/keratin.PNG" alt="Keratin">
+                <div id="box-7"><p id="box7p">View Keratin Portfolio</p></div>
+                <div id="box-small"><p>View Keratin Porfolio</p></div>
             </div>
-            <div id="service">
+            <div id="service" data-roots>
                 <img src="resources/images/roots.PNG" alt="Roots">
+                <div id="box-8"><p id="box8p">View Root Retouch Portfolio</p></div>
+                <div id="box-small"><p>View Roots Porfolio</p></div>
             </div>
         </div>
         <div id="book">
-            <button>Book Now</button>
+            <button id="call"><a href="tel:203-707-7335">Contact Nikki for Openings</a></button>
         </div>
     </div>
 
     <footer>
-        <div id="bottom-logo">
-            <img src="resources/images/logo.PNG" alt="NRL Hair Logo">
-        </div>
         <div id="social">
             <div id="social-block">
             <img src="resources/images/facebook.png" alt="Facebook">
             <img src="resources/images/instagram.png" alt="Instagram">
             </div>
         </div>
+        <div id="bottom-logo">
+            <img src="resources/images/nikki-logo.png" alt="NRL Hair Logo">
+        </div>
+        
         <div id="dds">
             <p><a href="http://www.digitaldynamicsolution.com">Powered By Digital Dynamic Solution ©</a></p>
         </div>
         
     </footer>
+    <script>
+        // Check if the user agent indicates a mobile device
+        var isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+    
+        if (!isMobile) {
+            // Load your JavaScript file if not a mobile device
+            var script = document.createElement('script');
+            script.src = 'app.js';
+            document.head.appendChild(script);
+        }
+    </script>
 </body>
 </html>
