@@ -4,18 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>$GTAPEPE | SOLANA</title>
   </head>
   <body>
     <div class="main">
       <div class="panel-1">
-        <img src="images/panel-1.png" alt="" />
+        <div class="main-img">
+          <img src="images/panel-1-img.png" alt="" />
+        </div>
+        <div class="wallet">
+          <p>Connect Wallet</p>
+        </div>
+        <div class="ifruit">
+          <img src="images/ifruit-home.png" alt="" />
+          <div class="overlay-phone">
+            <div class="phone-text"><p>iFruit</p></div>
+            <div class="coming-soon">Coming Soon</div>
+            <div class="no-service">No Service</div>
+            <div class="no-signal">
+              <img src="images/no-signal.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="top-tg">TELEGRAM</div>
+        <div class="top-twitter">TWITTER</div>
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="main-text">
+          Experience the Thrill of GTA and Memes with GTA PEPE
+        </div>
+        <div class="buy">BUY NOW</div>
       </div>
       <div class="panel-2">
         <img src="images/panel-2.png" alt="" />
       </div>
       <div class="panel-3">
-        <img src="images/pepenomics.png" alt="" />
+        <img src="images/pepenomics-update.png" alt="" />
         <div class="contract-text"><p>Contract Address:</p></div>
         <div class="contract">
           <p>
@@ -43,5 +68,21 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.querySelector(".wallet").addEventListener("click", function () {
+        const popup = document.querySelector(".ifruit");
+        popup.style.display = "block";
+
+        // Create and play beep sound
+        const beep = new Audio("unavailable-phone-192489.mp3"); // Add the path to your beep sound file
+        beep.play();
+
+        // Hide the popup after 3 seconds
+        setTimeout(function () {
+          popup.style.display = "none";
+        }, 3000);
+      });
+    </script>
   </body>
 </html>
