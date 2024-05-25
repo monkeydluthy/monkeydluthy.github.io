@@ -78,6 +78,12 @@
         const beep = new Audio("unavailable-phone-192489.mp3"); // Add the path to your beep sound file
         beep.play();
 
+        // Stop the beep sound after 2 seconds
+        setTimeout(function () {
+          beep.pause();
+          beep.currentTime = 0; // Reset the audio to the beginning
+        }, 2000);
+
         // Hide the popup after 3 seconds
         setTimeout(function () {
           popup.style.display = "none";
