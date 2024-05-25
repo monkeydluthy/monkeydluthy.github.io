@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>$GTAPEPE | SOLANA</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="panel-1">
+        <div class="main-img">
+          <img src="images/panel-1-img.png" alt="" />
+        </div>
+        <div class="wallet">
+          <p>Connect Wallet</p>
+        </div>
+        <div class="ifruit">
+          <img src="images/ifruit-home.png" alt="" />
+          <div class="overlay-phone">
+            <div class="phone-text"><p>iFruit</p></div>
+            <div class="coming-soon">Coming Soon</div>
+            <div class="no-service">No Service</div>
+            <div class="no-signal">
+              <img src="images/no-signal.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="top-tg">TELEGRAM</div>
+        <div class="top-twitter">TWITTER</div>
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="main-text">
+          Experience the Thrill of GTA and Memes with GTA PEPE
+        </div>
+        <div class="buy">BUY NOW</div>
+      </div>
+      <div class="panel-2">
+        <img src="images/panel-2.png" alt="" />
+      </div>
+      <div class="panel-3">
+        <img src="images/pepenomics-update.png" alt="" />
+        <div class="contract-text"><p>Contract Address:</p></div>
+        <div class="contract">
+          <p>
+            0x1234567890abcdef1234567890abcdef12345678
+            <img src="images/v14_67.png" alt="" id="copy-contract" />
+          </p>
+        </div>
+      </div>
+      <div class="panel-4">
+        <img src="images/roadmap.png" alt="" />
+      </div>
+      <div class="panel-5">
+        <img src="images/how-to-buy.png" alt="" />
+      </div>
+      <div class="panel-6">
+        <img src="images/panel-6.png" alt="" />
+        <div class="telegram">TELEGRAM</div>
+        <div class="twitter">TWITTER</div>
+        <div class="forms">
+          <ul class="form-info">
+            <li>Terms of Service</li>
+            <li>Privacy Policy</li>
+            <li>Contact us: gtapepe@business.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelector(".wallet").addEventListener("click", function () {
+        const popup = document.querySelector(".ifruit");
+        popup.style.display = "block";
+
+        // Create and play beep sound
+        const beep = new Audio("unavailable-phone-192489.mp3"); // Add the path to your beep sound file
+        beep.play();
+
+        // Stop the beep sound after 2 seconds
+        setTimeout(function () {
+          beep.pause();
+          beep.currentTime = 0; // Reset the audio to the beginning
+        }, 2000);
+
+        // Hide the popup after 3 seconds
+        setTimeout(function () {
+          popup.style.display = "none";
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>
