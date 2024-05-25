@@ -23,9 +23,9 @@ html {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   bottom: 33%;
-  right: 5%;
+  right: 7%;
 }
 
 .wallet {
@@ -121,23 +121,23 @@ html {
 .top-tg {
   position: absolute;
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
   text-decoration: underline;
-  top: 15%;
+  top: 20%;
   right: 20%;
 }
 
 .top-twitter {
   position: absolute;
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
   text-decoration: underline;
-  top: 15%;
-  right: 3%;
+  top: 20%;
+  right: 7%;
 }
 
 .logo {
