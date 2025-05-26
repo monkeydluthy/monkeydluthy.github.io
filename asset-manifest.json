@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.281ee134.css",
+    "main.js": "/static/js/main.d4eb043d.js",
+    "static/media/digital-services.jpg": "/static/media/digital-services.6d34b2afe9ca204b8ebe.jpg",
+    "static/media/social-media.jpg": "/static/media/social-media.b4c256506e843c32c679.jpg",
+    "static/media/seo.jpg": "/static/media/seo.6bb70f0c99724c4c0b24.jpg",
+    "static/media/webdesign-image.jpg": "/static/media/webdesign-image.a2a46d43f84433a9c3c1.jpg",
+    "static/media/consulting.jpg": "/static/media/consulting.f1e3f6efe618b2df1fca.jpg",
+    "static/media/website-maintenance.jpg": "/static/media/website-maintenance.9ec2f7cc55d398611f2d.jpg",
+    "static/media/content-creation-service-2.jpg": "/static/media/content-creation-service-2.451c91e6f7b5d6c866a6.jpg",
+    "static/media/logo-design.jpg": "/static/media/logo-design.4193f3594031a975ed6f.jpg",
+    "static/media/contact-hero.jpg": "/static/media/contact-hero.8d3ecb91ad7420dce0b3.jpg",
+    "static/media/web-design.jpg": "/static/media/web-design.d1ff635a064f70e25516.jpg",
+    "static/media/content-creation.jpg": "/static/media/content-creation.497b2a35515e7b755494.jpg",
+    "static/media/social-media-management.jpg": "/static/media/social-media-management.c224bed8e1996bfe1f3e.jpg",
+    "static/media/webdesign.png": "/static/media/webdesign.a6dc158806f0ffa8e7c5.png",
+    "static/media/seo-service.jpg": "/static/media/seo-service.54af8448d526e3a1863b.jpg",
+    "static/media/digital-marketing.jpg": "/static/media/digital-marketing.8d26edcece0b58000ec4.jpg",
+    "static/media/portfolio-hero.jpg": "/static/media/portfolio-hero.8d26edcece0b58000ec4.jpg",
+    "static/media/anj-logo.png": "/static/media/anj-logo.baaad75ad13ed0fc101f.png",
+    "static/media/nrl-logo.PNG": "/static/media/nrl-logo.360d3d8c4b3e8c43713c.PNG",
+    "static/media/consulting.png": "/static/media/consulting.808e2982ccd87b218806.png",
+    "static/media/internet-marketing.png": "/static/media/internet-marketing.331fedd7db75fb004b34.png",
+    "static/media/deal-portal.png": "/static/media/deal-portal.3a0c85e74bf4b43a764e.png",
+    "static/media/logo-black.png": "/static/media/logo-black.af7e658723b43b853d60.png",
+    "static/media/lyfestyle-logo.png": "/static/media/lyfestyle-logo.a7836cadf0640338993e.png",
+    "static/media/tampa-na-logo.png": "/static/media/tampa-na-logo.8753717a42e658904104.png",
+    "index.html": "/index.html",
+    "static/media/social-media.svg": "/static/media/social-media.9a8abd6e57486bbe04c94a7221bb317e.svg",
+    "static/media/digital-marketing.svg": "/static/media/digital-marketing.cd32b15b11c18b097a9e6654ecdb5dfe.svg",
+    "static/media/performance-growth.svg": "/static/media/performance-growth.64d5612f53c0f6a22ff786f874fca4e7.svg",
+    "static/media/marketing-analytics.svg": "/static/media/marketing-analytics.af39c6107cc558aa376180d4364538f9.svg",
+    "static/media/social-engagement.svg": "/static/media/social-engagement.23950e91a7d9063b97b6c2996d9a73ed.svg",
+    "static/media/strategy-planning.svg": "/static/media/strategy-planning.ffe637476ad8c72110a5b8f51f5107b8.svg",
+    "main.281ee134.css.map": "/static/css/main.281ee134.css.map",
+    "main.d4eb043d.js.map": "/static/js/main.d4eb043d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.281ee134.css",
+    "static/js/main.d4eb043d.js"
+  ]
+}
