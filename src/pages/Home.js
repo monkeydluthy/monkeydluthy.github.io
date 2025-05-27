@@ -58,7 +58,7 @@ function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Web Design Card */}
-            <div className="card group bg-gradient-to-br from-gray-50 to-white">
+            <div className="card group bg-gradient-to-br from-gray-50 to-white flex flex-col">
               <div className="aspect-video mb-6 overflow-hidden rounded-xl">
                 <img
                   src={webDesignImg}
@@ -66,18 +66,22 @@ function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Website Design</h3>
-              <p className="text-gray-700 mb-6">
+              <h3 className="text-xl font-semibold mb-3 text-center">
+                Website Design
+              </h3>
+              <p className="text-gray-700 mb-6 text-center">
                 Our website design process focuses on developing a website that
                 builds your brand and audience.
               </p>
-              <Link to="/web-design" className="btn-primary w-full text-center">
-                Learn More
-              </Link>
+              <div className="mt-auto flex justify-center">
+                <Link to="/web-design" className="btn-primary">
+                  Learn More
+                </Link>
+              </div>
             </div>
 
             {/* Digital Marketing Card */}
-            <div className="card group bg-gradient-to-br from-gray-50 to-white">
+            <div className="card group bg-gradient-to-br from-gray-50 to-white flex flex-col">
               <div className="aspect-video mb-6 overflow-hidden rounded-xl">
                 <img
                   src={seoServiceImg}
@@ -85,21 +89,22 @@ function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Digital Marketing</h3>
-              <p className="text-gray-700 mb-6">
+              <h3 className="text-xl font-semibold mb-3 text-center">
+                Digital Marketing
+              </h3>
+              <p className="text-gray-700 mb-6 text-center">
                 Customized digital marketing plans with the goal of driving high
                 converting traffic to your website.
               </p>
-              <Link
-                to="/internet-marketing"
-                className="btn-primary w-full text-center"
-              >
-                Learn More
-              </Link>
+              <div className="mt-auto flex justify-center">
+                <Link to="/internet-marketing" className="btn-primary">
+                  Learn More
+                </Link>
+              </div>
             </div>
 
             {/* Content Creation Card */}
-            <div className="card group bg-gradient-to-br from-gray-50 to-white">
+            <div className="card group bg-gradient-to-br from-gray-50 to-white flex flex-col">
               <div className="aspect-video mb-6 overflow-hidden rounded-xl">
                 <img
                   src={contentCreationImg}
@@ -107,17 +112,18 @@ function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Content Creation</h3>
-              <p className="text-gray-700 mb-6">
+              <h3 className="text-xl font-semibold mb-3 text-center">
+                Content Creation
+              </h3>
+              <p className="text-gray-700 mb-6 text-center">
                 Engaging content that tells your story and connects with your
                 audience across all platforms.
               </p>
-              <Link
-                to="/content-creation"
-                className="btn-primary w-full text-center"
-              >
-                Learn More
-              </Link>
+              <div className="mt-auto flex justify-center">
+                <Link to="/content-creation" className="btn-primary">
+                  Learn More
+                </Link>
+              </div>
             </div>
           </div>
         </div>
