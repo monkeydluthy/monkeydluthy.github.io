@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC" rx="20"/>
+  
+  <!-- Social Media Dashboard -->
+  <rect x="80" y="60" width="240" height="180" fill="white" stroke="#E2E8F0" stroke-width="2" rx="12"/>
+  
+  <!-- Stats Boxes -->
+  <rect x="100" y="80" width="80" height="60" fill="#3B82F6" opacity="0.1" rx="8"/>
+  <text x="120" y="110" fill="#3B82F6" font-family="Arial" font-size="20">1.2K</text>
+  <text x="120" y="125" fill="#3B82F6" font-family="Arial" font-size="12">Likes</text>
+  
+  <rect x="190" y="80" width="80" height="60" fill="#F59E0B" opacity="0.1" rx="8"/>
+  <text x="210" y="110" fill="#F59E0B" font-family="Arial" font-size="20">856</text>
+  <text x="210" y="125" fill="#F59E0B" font-family="Arial" font-size="12">Shares</text>
+  
+  <!-- Activity Graph -->
+  <path d="M100 200L320 200" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M100 160L140 180L180 150L220 170L260 140L300 160" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Social Icons -->
+  <circle cx="60" cy="100" r="15" fill="#3B82F6" opacity="0.2"/>
+  <path d="M55 100H65M60 95V105" stroke="#3B82F6" stroke-width="2"/>
+  
+  <circle cx="60" cy="150" r="15" fill="#F59E0B" opacity="0.2"/>
+  <path d="M55 150H65" stroke="#F59E0B" stroke-width="2"/>
+  
+  <circle cx="60" cy="200" r="15" fill="#EF4444" opacity="0.2"/>
+  <path d="M55 200L65 200M60 195V205" stroke="#EF4444" stroke-width="2"/>
+  
+  <!-- Maintenance Tools -->
+  <circle cx="340" cy="100" r="20" fill="#10B981" opacity="0.2"/>
+  <path d="M335 95L345 105M345 95L335 105" stroke="#10B981" stroke-width="2"/>
+  
+  <circle cx="340" cy="150" r="20" fill="#8B5CF6" opacity="0.2"/>
+  <path d="M330 150L350 150M340 140V160" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <circle cx="340" cy="200" r="20" fill="#EF4444" opacity="0.2"/>
+  <path d="M335 195L345 205M345 195L335 205" stroke="#EF4444" stroke-width="2"/>
+  
+  <!-- Connection Lines -->
+  <path d="M280 100C300 100 320 120 320 150" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M280 200C300 200 320 180 320 150" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+</svg> 

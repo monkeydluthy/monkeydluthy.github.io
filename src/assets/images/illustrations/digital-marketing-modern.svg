@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC" rx="20"/>
+  
+  <!-- Megaphone -->
+  <path d="M100 150C100 144.477 104.477 140 110 140H150L180 120V180L150 160H110C104.477 160 100 155.523 100 150Z" fill="#3B82F6"/>
+  <path d="M180 120C220 100 260 100 300 120" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M180 180C220 200 260 200 300 180" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Social Media Icons -->
+  <circle cx="250" cy="100" r="15" fill="#E2E8F0"/>
+  <path d="M245 100H255M250 95V105" stroke="#64748B" stroke-width="2"/>
+  
+  <circle cx="290" cy="120" r="15" fill="#E2E8F0"/>
+  <path d="M285 120H295" stroke="#64748B" stroke-width="2"/>
+  
+  <circle cx="250" cy="200" r="15" fill="#E2E8F0"/>
+  <path d="M245 200L255 200M250 195V205" stroke="#64748B" stroke-width="2"/>
+  
+  <!-- Analytics Graph -->
+  <path d="M60 220L60 100" stroke="#CBD5E1" stroke-width="2"/>
+  <path d="M60 220L180 220" stroke="#CBD5E1" stroke-width="2"/>
+  <path d="M80 180L100 150L120 190L140 160L160 200" stroke="#10B981" stroke-width="2"/>
+  
+  <!-- Target -->
+  <circle cx="320" cy="150" r="30" stroke="#EF4444" stroke-width="2"/>
+  <circle cx="320" cy="150" r="20" stroke="#EF4444" stroke-width="2"/>
+  <circle cx="320" cy="150" r="10" fill="#EF4444"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="80" r="5" fill="#F59E0B"/>
+  <circle cx="320" cy="80" r="5" fill="#F59E0B"/>
+  <circle cx="80" cy="220" r="5" fill="#F59E0B"/>
+  <circle cx="320" cy="220" r="5" fill="#F59E0B"/>
+</svg> 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC" rx="20"/>
+  
+  <!-- Browser Window -->
+  <rect x="80" y="60" width="240" height="180" fill="white" stroke="#E2E8F0" stroke-width="2" rx="12"/>
+  <rect x="80" y="60" width="240" height="30" fill="#E2E8F0" rx="12"/>
+  
+  <!-- Browser Controls -->
+  <circle cx="100" cy="75" r="6" fill="#EF4444"/>
+  <circle cx="120" cy="75" r="6" fill="#F59E0B"/>
+  <circle cx="140" cy="75" r="6" fill="#10B981"/>
+  
+  <!-- Code Elements -->
+  <rect x="100" y="110" width="120" height="10" fill="#E2E8F0" rx="2"/>
+  <rect x="100" y="130" width="180" height="10" fill="#E2E8F0" rx="2"/>
+  <rect x="100" y="150" width="140" height="10" fill="#E2E8F0" rx="2"/>
+  
+  <!-- Tools -->
+  <circle cx="340" cy="120" r="20" fill="#3B82F6" opacity="0.2"/>
+  <path d="M330 120L350 120M340 110V130" stroke="#3B82F6" stroke-width="2"/>
+  
+  <circle cx="340" cy="180" r="20" fill="#F59E0B" opacity="0.2"/>
+  <path d="M335 175L345 185M345 175L335 185" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- Maintenance Elements -->
+  <path d="M60 150C60 100 80 80 100 80" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M60 150C60 200 80 220 100 220" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Progress Bar -->
+  <rect x="100" y="200" width="200" height="20" fill="#E2E8F0" rx="10"/>
+  <rect x="100" y="200" width="140" height="20" fill="#3B82F6" rx="10"/>
+  
+  <!-- Status Indicators -->
+  <circle cx="60" cy="120" r="8" fill="#10B981"/>
+  <path d="M55 120L58 123L65 116" stroke="white" stroke-width="2"/>
+  
+  <circle cx="60" cy="180" r="8" fill="#F59E0B"/>
+  <path d="M57 177L63 183M63 177L57 183" stroke="white" stroke-width="2"/>
+</svg> 

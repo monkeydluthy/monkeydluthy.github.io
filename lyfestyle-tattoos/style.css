@@ -1,0 +1,1257 @@
+html {
+    background-color: #afe1af;
+    color: black;
+}
+
+#header-wrapper {
+    display: block;
+    height: 450px;
+<<<<<<< HEAD
+    width: 100%;
+    text-align: center;
+=======
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-top: 1%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#logo {
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo img {
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+}
+
+#nav-bar {
+<<<<<<< HEAD
+    background-color: rgb(190,240,190);
+=======
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+    display: inline-block;
+    padding: 0;
+    width: 95%;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    max-width: 100%;
+<<<<<<< HEAD
+}
+
+=======
+    margin-top: 2%;
+}
+
+/* TEST */
+
+#test-logo img{
+    display: block;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode:difference;
+}
+
+#test-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1000;
+}
+
+#test-nav li {
+    display: inline;
+    color: white;
+    width: 100px;
+    margin: 15px;
+}
+
+#test-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#test-nav a:hover {
+    color: red;
+}
+
+#test-booking {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding-top: 1%; */
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+    width: 95%;
+    color: white;
+}
+
+    /* CAROUSEL */
+    
+    *::before, *::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .test-carousel {
+        display: block;
+    width: 95%;
+    height: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: black;
+    border-radius: 8px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    .test-carousel > ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .test-slide {
+        position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    .test-slide > img {
+        display: block;
+    /* width: 95%; */
+    height: 760px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top: 1%;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    }
+    
+    .test-slide[data-active] {
+        opacity: 1;
+        z-index: 1;
+        transition-delay: 0ms;
+    }
+    
+    .test-carousel-button {
+        position: absolute;
+        background: none;
+        border: none;
+        font-size: 3rem;
+        top: 90%;
+        z-index: 2;
+        transform: translateY(-90%);
+        color: rgba(255,255,255,.5);
+        cursor: pointer;
+        border-radius: .25rem;
+        padding: 0 .5rem;
+        background-color: rgba(0, 0, 0, .1);
+    }
+    
+    .test-carousel-button:hover,
+    .test-carousel-button:focus {
+        color: white;
+        background-color: rgba(0, 0, 0, .2);
+    }
+    
+    .test-carousel-button:focus {
+        outline: 1px solid black;
+    }
+    
+    .test-carousel-button.prev {
+        left: 1rem;
+    }
+    
+    .test-carousel-button.next {
+        right: 1rem;
+    }
+
+    #test-appointment {
+        display: block;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
+        border-radius: 8px;
+        background-color: black;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 1px white solid;
+    }
+    
+    #test-appointment a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #test-appointment:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    #test-footer {
+        margin-top: 10%;
+        display: block;
+        text-align: center;
+    }
+
+    #test-footer a{
+        color: black;
+        text-decoration: none;
+    }
+
+    #test-footer a:hover {
+        color: gray;
+    }
+/* TEST */
+
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+#nav-bar li {
+    display: inline;
+    margin: 1%;
+    background-color: #afe1af;
+    color: black;
+    padding: 1%;
+    border-radius: 8px;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#nav-bar li:hover {
+    background-color: #6ee46e;
+    cursor: pointer;
+}
+
+#nav-bar a {
+    color: black;
+    text-decoration: none;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+<<<<<<< HEAD
+=======
+    margin-top: 2%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+    background-color: rgb(190,240,190);
+    border-radius: 8px;
+}
+
+#booking {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(190,240,190);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1%;
+<<<<<<< HEAD
+    
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#booking-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    padding: 3%;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#box img:hover {
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+/* CAROUSEL */
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.carousel {
+    display: block;
+    width: 95%;
+    height: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: black;
+    border-radius: 8px;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+.slide > img {
+    display: block;
+    /* width: 95%; */
+    height: 760px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+<<<<<<< HEAD
+    padding: 2%;
+=======
+    margin-top: 1%;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255,255,255,.5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus {
+    outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    left: 1rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
+}
+
+/* END OF CAROUSEL */
+
+/* *******PORTFOLIO PAGE******* */
+
+#portfolio-grid {
+    display: grid;
+<<<<<<< HEAD
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+=======
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    padding-bottom: 9%;
+    row-gap: 1%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#portfolio-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+<<<<<<< HEAD
+    padding: 3%;
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    max-height: 300px;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#portfolio-image img {
+    display: block;
+    max-height: 250px;
+<<<<<<< HEAD
+=======
+    width: auto;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+    border-radius: 8px;
+    margin: auto;
+}
+
+/* *******END OF PORTFOLIO PAGE****** */
+
+
+/* *****ABOUT PAGE***** */
+
+#about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#about-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    padding: 3%;
+    letter-spacing: 0.1rem;
+    color: black;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#about-box img {
+    border-radius: 8px;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#about-box h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#about-box h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+/* *****END OF ABOUT PAGE */
+
+/* *****REVIEWS PAGE***** */
+
+#reviews-wrapper {
+    display: block;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+/* *****END OF REVIEWS PAGE***** */
+
+/* *****CONTACT FORM***** */
+
+#form-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 95%;
+    margin-top: 5%;
+    border-radius: 8px;
+    background-color: rgb(190,240,190);
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#form {
+    display: block;
+    max-width: 80%;
+<<<<<<< HEAD
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+=======
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+/* *****END OF CONTACT FORM***** */
+
+#appointment {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border-radius: 8px;
+    background-color: rgb(190,240,190);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+<<<<<<< HEAD
+=======
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#appointment a {
+    text-decoration: none;
+    color: black;
+}
+
+#appointment:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+
+#footer a{
+    color: red;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: gray;
+}
+@media only screen and (max-width: 800px) {
+    html {
+        background-color: #afe1af;
+        color: white;
+    }
+    
+<<<<<<< HEAD
+=======
+    /* TEST */
+
+#test-logo img{
+    display: block;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    mix-blend-mode:difference;
+}
+
+#test-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1000;
+}
+
+#test-nav li {
+    display: inline;
+    color: white;
+    width: 100px;
+    margin: 0px;
+}
+
+#test-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#test-nav a:hover {
+    color: red;
+}
+
+#test-booking {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1%;
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    width: 95%;
+    padding-bottom: 1%;
+}
+
+    /* CAROUSEL */
+    
+    *::before, *::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .test-carousel {
+        display: block;
+        width: 95%;
+        height: 425px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        background-color: black;
+        border-radius: 8px;
+        border: 1px white solid;
+    }
+    
+    .test-carousel > ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .test-slide {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: 200ms opacity ease-in-out;
+        transition-delay: 200ms;
+    }
+    
+    .test-slide > img {
+        display: block;
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding: 1%;
+        margin-top: 2%;
+        border: 1px white solid;
+    }
+    
+    .test-slide[data-active] {
+        opacity: 1;
+        z-index: 1;
+        transition-delay: 0ms;
+    }
+    
+    .test-carousel-button {
+        position: absolute;
+        background: none;
+        border: none;
+        font-size: 3rem;
+        top: 90%;
+        z-index: 2;
+        transform: translateY(-90%);
+        color: rgba(255,255,255,.5);
+        cursor: pointer;
+        border-radius: .25rem;
+        padding: 0 .5rem;
+        background-color: rgba(0, 0, 0, .1);
+    }
+    
+    .test-carousel-button:hover,
+    .test-carousel-button:focus {
+        color: white;
+        background-color: rgba(0, 0, 0, .2);
+    }
+    
+    .test-carousel-button:focus {
+        outline: 1px solid black;
+    }
+    
+    .test-carousel-button.prev {
+        left: -.55rem;
+    }
+    
+    .test-carousel-button.next {
+        right: -.55rem;
+    }
+
+    #test-appointment {
+        display: block;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
+        border-radius: 8px;
+        background-color: black;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 1px white solid;
+    }
+    
+    #test-appointment a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #test-appointment:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    #test-footer {
+        margin-top: 10%;
+        display: block;
+        text-align: center;
+    }
+
+    #test-footer a{
+        color: black;
+        text-decoration: none;
+    }
+
+    #test-footer a:hover {
+        color: gray;
+    }
+
+/* TEST */
+
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+    #header-wrapper {
+        display: block;
+        height: 250px;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #logo {
+        display: block;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #logo img {
+        display: block;
+        max-height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        mix-blend-mode: multiply;
+    }
+
+    #nav-bar {
+<<<<<<< HEAD
+        background-color: rgb(190,240,190);
+=======
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        display: inline-block;
+        width: 100%;
+        color: black;
+        font-size: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 2rem;
+    }
+    
+    #nav-bar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-top: 2%;
+    }
+
+    #nav-bar li {
+        display: inline;
+        background-color: #afe1af;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nav-bar li:hover {
+        background-color: #6ee46e;
+        cursor: pointer;
+    }
+    
+    #wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+<<<<<<< HEAD
+        max-width: 90%;
+        background-color: rgb(190,240,190);
+=======
+        max-width: 95%;
+        background-color: transparent;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        border-radius: 8px;
+        padding-bottom: 3%;
+    }
+    
+    #booking {
+        display: block;
+        max-width: 100%;
+<<<<<<< HEAD
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(190,240,190);
+        border-radius: 8px;
+        text-align: center;
+        font-size: 1.25rem;
+=======
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 1.25rem;
+        color: black;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #booking-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+    
+    #box img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        max-height: 50px;
+        background-color: whitesmoke;
+        opacity: 0.8;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        padding: 3%;
+    }
+    
+    /* CAROUSEL */
+    
+    *::before, *::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .carousel {
+        display: block;
+<<<<<<< HEAD
+        width: 100%;
+=======
+        width: 95%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        height: 325px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        background-color: black;
+        border-radius: 8px;
+    }
+    
+    .carousel > ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .slide {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: 200ms opacity ease-in-out;
+        transition-delay: 200ms;
+    }
+    
+    .slide > img {
+        display: block;
+<<<<<<< HEAD
+        /* width: 95%; */
+=======
+        width: 200px;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        height: 300px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+<<<<<<< HEAD
+        padding: 2%;
+=======
+        padding: 1%;
+        margin-top: 2%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+    }
+    
+    .slide[data-active] {
+        opacity: 1;
+        z-index: 1;
+        transition-delay: 0ms;
+    }
+    
+    .carousel-button {
+        position: absolute;
+        background: none;
+        border: none;
+<<<<<<< HEAD
+        font-size: 4rem;
+=======
+        font-size: 3rem;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        top: 90%;
+        z-index: 2;
+        transform: translateY(-90%);
+        color: rgba(255,255,255,.5);
+        cursor: pointer;
+        border-radius: .25rem;
+        padding: 0 .5rem;
+        background-color: rgba(0, 0, 0, .1);
+    }
+    
+    .carousel-button:hover,
+    .carousel-button:focus {
+        color: white;
+        background-color: rgba(0, 0, 0, .2);
+    }
+    
+    .carousel-button:focus {
+        outline: 1px solid black;
+    }
+    
+    .carousel-button.prev {
+<<<<<<< HEAD
+        left: 1rem;
+    }
+    
+    .carousel-button.next {
+        right: 1rem;
+=======
+        left: .25rem;
+    }
+    
+    .carousel-button.next {
+        right: .25rem;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+    }
+    
+    /* END OF CAROUSEL */
+    
+/* *****ABOUT PAGE***** */
+
+#about-grid {
+    display: block;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#about-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    padding: 3%;
+    letter-spacing: 0.1rem;
+    color: black;
+    padding: 5%;
+}
+
+#about-box img {
+    display: block;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-box h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#about-box h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+/* *****END OF ABOUT PAGE */
+
+/* *******PORTFOLIO PAGE******* */
+
+#portfolio-grid {
+    display: block;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#portfolio-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+<<<<<<< HEAD
+=======
+    margin-top: 2%;
+    background-color: black;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+#portfolio-image img {
+    display: block;
+    max-height: 250px;
+    border-radius: 8px;
+    margin: auto;
+<<<<<<< HEAD
+    width: 250px;
+=======
+    width: 200px;
+    border: 1px white solid;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+}
+
+/* *******END OF PORTFOLIO PAGE****** */
+
+/* *****REVIEWS PAGE***** */
+
+#reviews-wrapper {
+    display: block;
+    background-color: rgb(190,240,190);
+    max-width: 95%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#reviews-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+/* *****END OF REVIEWS PAGE***** */
+
+
+/* *****CONTACT FORM***** */
+
+#form-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 95%;
+    margin-top: 5%;
+    border-radius: 8px;
+    background-color: rgb(190,240,190);
+}
+
+#form {
+    display: block;
+    max-width: 90%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* *****END OF CONTACT FORM***** */
+#appointment {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border-radius: 8px;
+    background-color: rgb(190,240,190);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#appointment a {
+    text-decoration: none;
+    color: black;
+}
+
+#appointment:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+    #footer {
+<<<<<<< HEAD
+        margin-top: 5%;
+=======
+        margin-top: 10%;
+>>>>>>> efd706b82bb9e85df96ed668128291741a606d93
+        display: block;
+        text-align: center;
+    }
+
+    #footer a{
+        color: red;
+        text-decoration: none;
+    }
+
+    #footer a:hover {
+        color: gray;
+    }
+  }

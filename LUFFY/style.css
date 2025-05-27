@@ -1,0 +1,228 @@
+html {
+  background-color: black;
+}
+.main {
+  background-color: black;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 85%;
+  background-color: gray;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.token-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.gear-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gear-5 img {
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  border-radius: 8px;
+}
+
+.paste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.paste img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+  border: 1px solid white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.tg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tg img {
+  height: 200px;
+}
+
+.pump {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4rem;
+}
+
+.x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.x img {
+  height: 250px;
+}
+
+.luffy-pix {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+}
+
+.nika {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nika img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.jolly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jolly img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.goggles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goggles img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.pick {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 5rem;
+  margin-top: 5%;
+  border: 1px solid white;
+  width: 50%;
+  border-radius: 8px;
+}
+
+.pick:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+
+.bottom-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+}
+
+.smile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smile img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.crew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crew img {
+  height: 300px;
+  border: 8px;
+}
+
+.hat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hat img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.buy {
+  background-color: white;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4rem;
+  margin-top: 5%;
+  border-radius: 8px;
+  padding: 1%;
+}
+
+.foot {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 3%;
+}
